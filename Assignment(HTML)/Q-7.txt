@@ -1,0 +1,41 @@
+Q-7. What is the difference between the 'id' attribute and the 'class' attribute of HTML elements?
+     ---------------------------------------------------------------------------------------------	
+
+
+	ID:
+
+-> The HTML 'id' attribute is used to specify a unique id for an HTML element.
+-> You cannot have more than one element with the same id in an HTML document.
+
+SYNTAX:-
+
+<'start_tag' id='id_name'>
+content
+<'end_tag'>
+
+#'id_name' {}   [for apply CSS]
+
+
+
+	CLASS:
+
+-> The HTML 'class' attribute is used to specify a class for an HTML element.
+
+SYNTAX:-
+
+<'start_tag' class='class_name'>
+content
+<'end_tag'>
+
+.'class_name' {}   [for apply CSS]
+
+-> Multiple HTML elements can share the same class.
+
+
+
+	ID VS CLASS:
+
+   Remember the difference between Class and ID:
+   ---------------------------------------------
+   - A Class name can be used by multiple HTML elements, while an ID name must only used by one HTML 
+     element within the page.

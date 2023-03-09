@@ -1,0 +1,44 @@
+Q-12. How to create a Hyperlink in HTML?
+      ----------------------------------
+
+- HTML links are hyperlinks.
+
+- You can click on a link and jump to another document.
+
+- When you move the mouse over a link, the mouse arrow will turn into a little hand.
+
+- A link does not have to be text. 
+  A link can be an image or any other HTML element!
+
+- The HTML <a> tag defines a hyperlink. 
+
+SYNTAX:
+------
+<a href="URL" target="value"> link text </a> 
+
+- The most important attribute of the <a> element is the "href" attribute, 
+  which indicates the link's destination.
+
+- The link text is the part that will be visible to the reader.
+
+- Clicking on the link text, will send the reader to the specified URL address.
+
+-> By default, links will appear as follows in all browsers:
+
+- An unvisited link is underlined and blue
+- A visited link is underlined and purple
+- An active link is underlined and red
+
+-> The target attribute specifies where to open the linked document.
+
+_self   - Default. Opens the document in the same window/tab as it was clicked
+_blank  - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top    - Opens the document in the full body of the window
+
+Absolute URLs vs. Relative URLs
+
+Both examples above are using an absolute URL (a full web address) in the href attribute.
+
+A local link (a link to a page within the same website) is specified with a relative URL 4
+(without the "https://www" part):

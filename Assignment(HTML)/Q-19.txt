@@ -1,0 +1,20 @@
+Q-19. What is difference between HTML and XHTML?
+      ------------------------------------------
+
+-> HTML and XHTML are two of the most popular markup languages used for developing web pages and
+   applications.
+
+-> HTML is the Standard Markup Language for creating web pages.
+
+-> XHTML is a stricter and more standardized version of HTML.
+
+-> Both HTML nd XHTML include a wide range of features, such as support for multimedia, styling and
+   scripting.
+
+-> HTML and XHTML both have features to create rich and interactive web pages and applications.
+
+-> The key difference between HTML and XHTML is that HTML displays data and describes the structure
+   of a webpages, whereas XHTML stores and transfers data.
+
+-> XHTML is a standard language which can define other computer languages, but HTML is a predefined 
+   language with its own implications.
