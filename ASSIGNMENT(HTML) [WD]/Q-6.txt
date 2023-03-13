@@ -1,0 +1,16 @@
+Q-6. What is class attribute in HTML?
+     --------------------------------
+
+-> The HTML class attribute is used to specify a class for an HTML element.
+-> Multiple HTML elements can share the same class.
+
+
+SYNTAX:-
+
+<'start_tag' class='class_name'>
+content
+<'end_tag'>
+
+.'class_name' {}   [for apply CSS]
+
+-> The class name is case sensitive!

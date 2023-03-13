@@ -1,0 +1,46 @@
+Q-16. How are active links different from normal links?
+      -------------------------------------------------
+
+-> An HTML link is displayed in a different color depending on whether it has been visited, is
+   unvisited, or is active.
+
+HTML Links Colors:
+------------------
+
+By defaukt, a link will appear like this (in all browsers):
+	- An unvisited link is underlined and blue [Normal Link]
+	- An visited link is underlined and purple
+	- An active link is underlined and red
+
+Unvisisted Link:
+---------------
+
+Example:-
+
+- If you want to create a link to go to "https://www.google.com", you can get the Normal link thorugh
+  this code.
+
+- The default color is blue and underlined but you can apply your own custom style.
+
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <h2>This is a Link</h2>
+    <h1>
+        Welcome to
+        <a href="https://www.google.com">
+            Google
+        </a>
+    </h1>
+</body>
+  
+</html>
+
+Active Link:
+------------
+
+- A link become active when you click on it.
+
+- If you left or right-click any one of the links Visited or Unvisited, it will turn 
+  into Red and Underline.
