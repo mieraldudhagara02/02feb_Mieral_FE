@@ -1,0 +1,566 @@
+.containerA{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    justify-content: space-evenly;
+}
+.container1{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img1{
+    position: absolute;
+}
+.n1{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d1{
+    position: absolute;
+    top: 255px;
+    left: 65px;
+    color: #fe626c;
+}
+.p1{
+    position: absolute;
+    top: 285px;
+    left: 55px;
+    color: black;
+}
+.P1{
+    position: absolute;
+    top: 285px;
+    left: 150px;
+    color: #b4b4b3;
+}
+.c1{
+    position: absolute;
+    top: 330px;
+    left: 75px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img1 .c1:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q1{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img1:hover .q1{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q1:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container2{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img2{
+    position: absolute;
+}
+.n2{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d2{
+    position: absolute;
+    top: 255px;
+    left: 65px;
+    color: #fe626c;
+}
+.p2{
+    position: absolute;
+    top: 285px;
+    left: 60px;
+    color: black;
+}
+.P2{
+    position: absolute;
+    top: 285px;
+    left: 155px;
+    color: #b4b4b3;
+}
+.c2{
+    position: absolute;
+    top: 330px;
+    left: 75px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img2 .c2:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q2{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img2:hover .q2{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q2:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container3{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img3{
+    position: absolute;
+}
+.n3{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d3{
+    position: absolute;
+    top: 255px;
+    left: 100px;
+    color: #fe626c;
+}
+.p3{
+    position: absolute;
+    top: 285px;
+    left: 60px;
+    color: black;
+}
+.P3{
+    position: absolute;
+    top: 285px;
+    left: 150px;
+    color: #b4b4b3;
+}
+.c3{
+    position: absolute;
+    top: 330px;
+    left: 75px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img3 .c3:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q3{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img3:hover .q3{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q3:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container4{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img4{
+    position: absolute;
+}
+.n4{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d4{
+    position: absolute;
+    top: 255px;
+    left: 95px;
+    color: #fe626c;
+}
+.p4{
+    position: absolute;
+    top: 285px;
+    left: 65px;
+    color: black;
+}
+.P4{
+    position: absolute;
+    top: 285px;
+    left: 145px;
+    color: #b4b4b3;
+}
+.c4{
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img4 .c4:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q4{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img4:hover .q4{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q4:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.containerB{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+.container5{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img5{
+    position: absolute;
+}
+.n5{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d5{
+    position: absolute;
+    top: 255px;
+    left: 75px;
+    color: #fe626c;
+}
+.p5{
+    position: absolute;
+    top: 285px;
+    left: 70px;
+    color: black;
+}
+.P5{
+    position: absolute;
+    top: 285px;
+    left: 155px;
+    color: #b4b4b3;
+}
+.c5{
+    position: absolute;
+    top: 330px;
+    left: 83px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img5 .c5:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q5{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img5:hover .q5{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q5:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container6{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img6{
+    position: absolute;
+}
+.n6{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d6{
+    position: absolute;
+    top: 255px;
+    left: 60px;
+    color: #fe626c;
+}
+.p6{
+    position: absolute;
+    top: 285px;
+    left: 60px;
+    color: black;
+}
+.P6{
+    position: absolute;
+    top: 285px;
+    left: 155px;
+    color: #b4b4b3;
+}
+.c6{
+    position: absolute;
+    top: 330px;
+    left: 80px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img6 .c6:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q6{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img6:hover .q6{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q6:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container7{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img7{
+    position: absolute;
+}
+.n7{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d7{
+    position: absolute;
+    top: 255px;
+    left: 90px;
+    color: #fe626c;
+}
+.p7{
+    position: absolute;
+    top: 285px;
+    left: 65px;
+    color: black;
+}
+.P7{
+    position: absolute;
+    top: 285px;
+    left: 155px;
+    color: #b4b4b3;
+}
+.c7{
+    position: absolute;
+    top: 330px;
+    left: 80px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img7 .c7:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q7{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img7:hover .q7{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q7:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+.container8{
+    height: 375px;
+    width: 278px;
+    background-color: white;
+    position: relative;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+.img8{
+    position: absolute;
+}
+.n8{
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.d8{
+    position: absolute;
+    top: 255px;
+    left: 95px;
+    color: #fe626c;
+}
+.p8{
+    position: absolute;
+    top: 285px;
+    left: 65px;
+    color: black;
+}
+.P8{
+    position: absolute;
+    top: 285px;
+    left: 155px;
+    color: #b4b4b3;
+}
+.c8{
+    position: absolute;
+    top: 330px;
+    left: 85px;
+    color: black;
+    background-color: #2edbb8;
+    color: white;
+    padding: 3px 5px;
+}
+.img8 .c8:hover{
+    outline-offset: 4px;
+    outline: solid 3px #2edbb8;
+    transition: 0.3s;
+}
+.q8{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.img8:hover .q8{
+    opacity: 1;
+    top: 90%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q8:hover{
+    background-color: #2edbb8;
+    color: white;
+}
