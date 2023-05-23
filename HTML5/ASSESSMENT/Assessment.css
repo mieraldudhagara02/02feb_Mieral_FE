@@ -1,0 +1,95 @@
+h3{
+    margin: 3px 650px;
+    text-decoration: underline maroon;
+    color: maroon;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    width: 100%;
+}
+#FN{
+    margin: 3px 0px 0px 80px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#LN{
+    margin: 3px 0px 0px 82px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#Email{
+    margin: 3px 0px 0px 114px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#Mobile{
+    margin: 3px 0px 5px 106px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#DOB{
+    margin: 10px 0px 0px 65px;
+    padding: 10px 354px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#Address{
+    margin-left: 100px;
+    padding: 10px 0px 10px 6px;
+    border-radius: 5px;
+}
+#City{
+    margin: 3px 0px 0px 125px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#AreaPIN{
+    margin: 3px 0px 0px 90px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#State{
+    margin: 3px 0px 0px 120px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#Qualification{
+    margin: 3px 0px 0px 68px;
+    padding: 5px 30px 5px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#CS{
+    margin: 3px 0px 0px 199px;
+}
+#IT{
+    margin-left: 199px;
+}
+#CA{
+    margin-left: 199px;
+}
+#TC{
+    margin-left: 199px;
+}
+#Password{
+    margin: 3px 0px 0px 93px;
+    padding: 10px 300px 10px 5px;
+    font-size: medium;
+    border-radius: 5px;
+}
+#Registered{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}

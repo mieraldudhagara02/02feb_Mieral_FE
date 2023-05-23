@@ -1,0 +1,76 @@
+-> HTML5 is markup language. 
+
+-> HTML5 is used to structuring and presenting content on the 'World Wide Web.'
+
+-> It is the fifth and final major HTML version.
+
+-> HTML5 is World Wide Web Consortium (W3C) recommendation. 
+
+NEW ADDED ELEMENTS IN HTML5:
+----------------------------
+
+1. <article></article> : specifies independent, self-contained content
+2. <aside></aside>     : provides information about the main content
+3. <figure></figure>   : We need to use 'Figure Tag', When we want to put any images, illustrations, diagrams, etc
+4. <figcaption></figcaption>  : is used to provide a caption to an image
+                              - It is an optional tag and can appear before or after the content within the <figure> tag
+
+            SYNTAX:
+                <figure>
+                    <img src="_">
+                    <figcaption>"caption"</figcaption>
+                </figure>
+
+5. <header></header>   : a <header> element contains one or more heading elements, logo or icons or author's information 
+6. <footer></footer>   : is used to define a footer for a document. It is generally used in the last of the section (bottom of the page)
+7. <main></main>       : is used to represent the main content of the <body> tag
+                       - The <main> element should not used as a child of an <article>, <aside>, <header>, <footer>, or <nav> element
+8. <mark></mark>       : is used to define the marked text
+9. <nav></nav>         : is used to represent a section which contains navigation links
+                        
+                        EXAMPLE:
+                            <nav>  
+                                <a href="#">Home</a> |  
+                                <a href="#">Courses</a> |  
+                                <a href="#">About-us</a> |  
+                                <a href="#">Contact-us</a> |  
+                            </nav> 
+
+10. <section></section>  : is used to define sections in a document
+11. <summary></summary>  : The HTML <summary> tag is used with <details> tag
+                         - It is used within the <details> tag
+12. <details></details>  : is used to specify the additional details on the web page that the user can view or hide on demand
+                         - It is used together with a relevant tag known as <summary>
+
+                         EXAMPLE:
+                            <details>  
+                                <summary>Copyright 2011-2014.</summary>  
+                                <p> - by JavaTpoint. All Rights Reserved.</p>  
+                                <p>All content and graphics on this web site are the property of the javatpoint.com</p>  
+                            </details>
+
+13. <time></time>       : is used to define date and time
+                        - It displays time value in a 24 hour clock
+                        - It helps search engines to produce smarter search results.
+14. <datalist></datalist>  : The <datalist> tag specifies a list of pre-defined options for an <input> element
+                           - Users will see a drop-down list of pre-defined options as they input data
+
+                           EXAMPLE:
+                            <input list="browsers" name="browser" id="browser">
+
+                                <datalist id="browsers">
+                                    <option value="Edge">
+                                    <option value="Firefox">
+                                    <option value="Chrome">
+                                    <option value="Opera">
+                                    <option value="Safari">
+                                </datalist>
+15. <progress></progress>  : It is used to represent the progress of a task.
+                           - It also defines how much work is done and how much is left to download a task
+16. <svg></svg>            : scalable vector graphics
+17. <canvas></canvas>      : The <canvas> tag in HTML is used to draw graphics on web page using JavaScript
+18. <audio></audio>        : It defines the music or audio content
+19. <video></video>        :  It defines the video content
+20. <source>               : It defines the sources for <video> and <audio>
+21. <track>                : It defines the tracks for <video> and <audio>
+22. <embed></embed>        : Defines containers for external applications (usually a video player)

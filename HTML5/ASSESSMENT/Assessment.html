@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assessment.css">
+    <link rel="icon" href="../ASSESSMENT/IMAGES/Favicon.jpg">
+    <title> Registration Form </title>
+</head>
+<body>
+    <h3>Student Registration Form</h3>
+    <div class="container">
+    <form action="www.W3Schools.com">
+        <fieldset>
+
+            <!-- FIRST NAME -->
+            <label for="FN">First Name:</label>
+            <input type="text" name="FN" id="FN" placeholder="Enter your first name" required pattern="{a-z, A-Z}" minlength="3" maxlength="6"><br>
+
+            <!-- LAST NAME -->
+            <label for="LN">Last Name:</label>
+            <input type="text" name="LN" id="LN" placeholder="Enter your last name" required><br>
+
+            <!-- EMAIL -->
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="it should contain @.." required><br>
+
+            <!-- MOBILE NUMBER -->
+            <label for="Mobile">Mobile:</label>
+            <input type="tel" name="Mobile" id="Mobile" placeholder="only 10 digits are allowed" required pattern="{0-9}" minlength="10"><br>
+
+            <!-- GENDER -->
+            <label for="Gender"  style="margin-right: 100px;">Gender:</label>
+            <input type="radio" name="Gender" id="Gender" required>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Gender" required>
+            <label for="Female">Female</label><br>
+
+            <!-- DATE OF BIRTH -->
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" name="DOB" id="DOB" required><br>
+
+            <!-- ADDRESS -->
+            <label for="Address">Address:</label>
+            <textarea name="Address" id="Address" cols="65" rows="10" required></textarea><br>
+
+            <!-- CITY -->
+            <label for="City">City:</label>
+            <input type="text" name="City" id="City" required><br>
+
+            <!-- AREA PIN -->
+            <label for="AreaPIN">Area PIN:</label>
+            <input type="tel" name="AreaPIN" id="AreaPIN" required><br>
+
+            <!-- STATE -->
+            <label for="State">State:</label>
+            <input type="text" name="State" id="State" required><br>
+
+            <!-- QUALIFICATION -->
+            <label for="Qualification">Qualification:</label>
+            <select name="dropdown" id="Qualification" required>
+                <option value="SelectQualification">Select Qualification</option>
+                <option value="B.Com">B.Com</option>                
+                <option value="M.Com">M.Com</option>                
+                <option value="BCA">BCA</option>                
+                <option value="MCA">MCA</option>                
+            </select><br>
+
+            <!-- SPECIALIZATION -->
+            <label for="Specialization">Specialization:</label>
+            <div class="sp">
+            <input type="checkbox" name="CS" id="CS" required>
+            <label for="Specialization">Computer Science</label><br>
+            <input type="checkbox" name="IT" id="IT" required>
+            <label for="Specialization">Information Technology</label><br>
+            <input type="checkbox" name="CA" id="CA" required>
+            <label for="Specialization">Computer Architecture</label><br>
+            <input type="checkbox" name="TC" id="TC" required>
+            <label for="Specialization">Tele Communication</label><br>
+            </div>
+
+            <!-- PASSWORD -->
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" required><br>
+
+            <!-- REGISTRATION BUTTON -->
+            <input type="submit" name="Registered" id="Registered" value="Registered">
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
