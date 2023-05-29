@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-4.css">
+    <title> Question-4 </title>
+</head>
+<body>
+    <div class="container4">
+
+        <!-- HEADER START -->
+        <header>
+            <div class="logo">
+                <img src="../IMAGES/01. Logo.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../Home.html" target="_self">HOME</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- HEADER OVER -->
+
+        <!-- MAIN CONTENT START -->
+        <main> 
+            <h1 class="question4">4. CANVAS AND SVG TAG.</h1>
+
+            <p class="answer4">
+                <dl class="list">
+                    <dt><span id="dt">1. SVG Tag:</span></dt><br>
+                    <dd>
+                        <span style="background-color: rgb(131, 86, 8); color: white; padding: 3px 5px;">INTRODUCTION:</span><br><br>
+                        &nbsp; &nbsp; - SVG : Scalable Vector Graphics.<br>
+                        &nbsp; &nbsp; - SVG defines vector-based graphics.<br>
+                        &nbsp; &nbsp; - SVG is W3C recommendation.<br>
+                        &nbsp; &nbsp; - SVG images are Zoomable, which means images do not lose their quality when zoomed.<br>
+                        &nbsp; &nbsp; - By using SVG, we can draw paths, boxes, circles, text etc.<br>
+                        &nbsp; &nbsp; - SVG images can be created with any text editor.<br><br>
+                        <div id="syntax"><u>SYNTAX 1</u>:<br><br>
+                            &ltsvg width="value" height="value"&gt<br>
+                            &nbsp; &nbsp; &ltcircle cx="value" cy="value" r="value" stroke="value" stroke-width="value" fill="value"&gt<br>
+                            &lt/svg&gt
+                        </div><br>
+                        Here, <br><br>
+                        - SVG image begins with an &ltsvg&gt element and ends with &lt/svg&gt.<br>
+                        - <span style="color: rgb(71, 98, 100);">HEIGHT</span> : define the height of svg image.<br>
+                        - <span style="color: rgb(71, 98, 100);">WIDTH</span> : define the width of svg image.<br>
+                        - <span style="color: rgb(71, 98, 100);">&ltCIRCLE&gt</span> : is used to draw a circle.<br>
+                        - <span style="color: rgb(71, 98, 100);">cx</span> : define the center of the circle on the x-axis.<br>
+                        - <span style="color: rgb(71, 98, 100);">cy</span> : define the center of the circle on the y-axis.<br>
+                        - <span style="color: rgb(71, 98, 100);">r</span> : define the radius of the circle.<br>
+                        - <span style="color: rgb(71, 98, 100);">STROKE</span> : stroke means border.<br>
+                        - <span style="color: rgb(71, 98, 100);">STROKE-WIDTH</span> : define width of the stroke.<br>
+                        - <span style="color: rgb(71, 98, 100);">FILL</span> : define color inside the circle(shape).<br><br>
+                        <div id="example" style="width: 163px;"><center><u>EXAMPLE 1</u>:</center><br><br>
+                            <svg>
+                                <circle cx="75px" cy="75px" r="65px" stroke="rgb(131, 86, 8)" stroke-width="2" fill="rgb(198, 226, 227)">
+                            </svg>
+                        </div><br>
+                        - &nbsp; &nbsp; SVG images are Zoomable, which means images do not lose their quality when zoomed.<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; Let's see the result, after zooming this circle....<br><br>
+                        <img src="../Q-4/IMAGES/2023-05-29.png" alt="" height="300px" width="550px"><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; And the Circle do not lose the quality.<br><br>
+                        Let's try rectangle Shape by using SVG...<br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltsvg width="value" height="value"&gt<br>
+                            &nbsp; &nbsp; &ltrect x="value" y="value" height="value" width="value" <br>
+                            &nbsp; &nbsp; rx="value" ry="value" stroke="value" stroke-width="value" fill="value"&gt<br>
+                            &lt/svg&gt
+                        </div><br>
+                        Here, <br><br>
+                        - <span style="color: rgb(71, 98, 100);">HEIGHT</span> : define the height of svg image.<br>
+                        - <span style="color: rgb(71, 98, 100);">WIDTH</span> : define the width of svg image.<br>
+                        - <span style="color: rgb(71, 98, 100);">rx</span> : rounds the corners of the rectangle.<br>
+                        - <span style="color: rgb(71, 98, 100);">ry</span> : rounds the corners of the rectangle.<br>
+                        - <span style="color: rgb(71, 98, 100);">STROKE</span> : stroke means border.<br>
+                        - <span style="color: rgb(71, 98, 100);">STROKE-WIDTH</span> : define width of the stroke.<br>
+                        - <span style="color: rgb(71, 98, 100);">FILL</span> : define color inside the circle(shape).<br>
+                        - <span style="color: rgb(71, 98, 100);">x</span> : define left margin.<br> 
+                        - <span style="color: rgb(71, 98, 100);">y</span> : define top margin.<br><br>
+                        <div id="example" style="width: 262px;"><center><u>EXAMPLE 2</u>:</center><br><br>
+                            <svg>
+                                <rect x="20" y="50" height="90px" width="210px" stroke="rgb(131, 86, 8)" fill="rgb(198, 226, 227)" stroke-width="4px">
+                            </svg>
+                        </div><br>
+                        - &nbsp; &nbsp; SVG is wide topic.<br>
+                        - &nbsp; &nbsp; There are many attributes in SVG.
+                    </dd><br>
+                    <dt><span id="dt">2. CANVAS Tag:</span></dt><br>
+                    <dd>
+                        <span style="background-color: rgb(131, 86, 8); color: white; padding: 3px 5px;">INTRODUCTION:</span><br><br>
+                        &nbsp; &nbsp; - The HTML &ltcanvas&gt element is used to draw graphics on a web page.<br>
+                        &nbsp; &nbsp; - We need JavaScript, for drawing graphics by using &ltcanvas&gt element.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltcanvas id="value" width="value" height="value"&gt<br>
+                            &nbsp; &nbsp; //canvas code<br>
+                            &lt/canvas&gt
+                        </div><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+
+                            </canvas>
+                        </div><br>
+                        <b>NOTE:</b> &nbsp; You must have to specify <span style="color: red;">id</span>. (for JavaScript)<br>
+                        &nbsp; &nbsp; - After creating the rectangular canvas, you must add a JavaScript to do the drawing.<br><br>
+                        <h3 style="border: 1px solid black; padding: 3px 5px; text-align: center; margin-bottom: 5px; color: rgb(131, 86, 8);">DRAW A LINE:</h3>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltcanvas id="value" width="value" height="value"&gt&lt/canvas&gt<br>
+                            &ltscript&gt<br>
+                            &nbsp; &nbsp; var variable_name = document.getElementById("value");<br>
+                            &nbsp; &nbsp; var context = variable_name.getContext("value");<br>
+                            &nbsp; &nbsp; variable_name.moveTo(x,y);<br>
+                            &nbsp; &nbsp; variable_name.lineTo(200,100);<br>
+                            &nbsp; &nbsp; variable_name.stroke();<br>
+                            &lt/script&gt
+                        </div><br>
+                        Here, <br><br>
+                        - <span style="color: rgb(71, 98, 100);">id</span> : The &ltcanvas&gt element must have an id attribute(for JS)<br>
+                        - <span style="color: rgb(71, 98, 100);">HEIGHT</span> : define the height of canvas.<br>
+                        - <span style="color: rgb(71, 98, 100);">WIDTH</span> : define the width of canvas.<br>
+                        - <span style="color: rgb(71, 98, 100);">getElementById()</span> : it's a DOM Method(for find the canvas element)<br>
+                        - <span style="color: rgb(71, 98, 100);">getContext()</span> : it's built-in HTML function.<br>
+                        - <span style="color: rgb(71, 98, 100);">moveTo()</span> : defines the starting point of the line.<br>
+                        - <span style="color: rgb(71, 98, 100);">lineTo()</span> : defines the ending point of the line.<br>
+                        - <span style="color: rgb(71, 98, 100);">stroke()</span> : It's a ink method (for drawing a line you must use this method like stroke())<br><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="mycanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                            <script>
+                                var canvas = document.getElementById("mycanvas");
+                                var context = canvas.getContext("2d");
+                                context.moveTo(0, 0);
+                                context.lineTo(200, 100);
+                                context.stroke();
+                            </script>
+                        </div><br>
+                        <h3 style="border: 1px solid black; padding: 3px 5px; text-align: center; margin-bottom: 5px; color: rgb(131, 86, 8);">TEXT:</h3>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltcanvas id="value" width="value" height="value"&gt&lt/canvas&gt<br>
+                            &ltscript&gt<br>
+                            &nbsp; &nbsp; var variable_name = document.getElementById("value");<br>
+                            &nbsp; &nbsp; var context = variable_name.getContext("value");<br>
+                            &nbsp; &nbsp; variable_name.font = "value";<br>
+                            &nbsp; &nbsp; variable_name.fillText(text,x,y);<br>
+                            &nbsp; &nbsp; variable_name.strokeText(text,x,y);<br>
+                            &lt/script&gt
+                        </div><br>
+                        Here, <br><br>
+                        - <span style="color: rgb(71, 98, 100);">font</span> : font properties for text.<br>
+                        - <span style="color: rgb(71, 98, 100);">fillText()</span> : for "filled" text.<br> 
+                        - <span style="color: rgb(71, 98, 100);">strokeText()</span> : no fill text<br><br>
+                        <b>STROKE TEXT:</b><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="Canvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                            <script>
+                                var can = document.getElementById("Canvas");
+                                var Contextt = can.getContext("2d");
+                                Contextt.font = "30px Arial";
+                                Contextt.strokeText("MIRAL", 55, 60);
+                            </script>
+                        </div><br>
+                        <b>FILLED TEXT:</b><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="Canva" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                            <script>
+                                var canva = document.getElementById("Canva");
+                                var Context = canva.getContext("2d");
+                                Context.font = "30px Arial";
+                                Context.fillText("MIRAL", 55, 60);
+                            </script>
+                        </div><br>
+                    </dd>
+                </dl>
+            </p>
+        </main>
+        <!-- MAIN CONTENT OVER -->
+</body>
+</html>

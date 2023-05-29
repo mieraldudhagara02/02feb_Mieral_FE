@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Q-1.css">
+    <title> Question-1 </title>
+</head>
+<body>
+    <div class="container1">
+
+        <!-- HEADER START -->
+        <header>
+            <div class="logo">
+                <img src="../IMAGES/01. Logo.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../Home.html" target="_self">HOME</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- HEADER OVER -->
+
+        <!-- MAIN CONTENT START -->
+        <main>
+            <h1 class="question1">1. WHAT ARE THE NEW TAGS ADDED IN HTML5?</h1>
+
+            <p class="answer1">
+            <span style="background-color: rgb(131, 86, 8); color: white; padding: 3px 5px;">INTRODUCTION:</span><br><br>
+            - &nbsp; HTML5 is 'markup language.'<br>
+            - &nbsp; HTML5 is used to 'structuring' and 'presenting' content on the "World Wide Web."<br><br><br>
+            <span style="background-color: rgb(131, 86, 8); color: white; padding: 3px 5px;">NEW TAGS ADDED IN HTML5:</span><br><br>
+                <dl class="list">
+                    <dt><span id="dt">1. &ltaudio&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - HTML audio tag is used to define sounds such as music and other audio clips.<br>
+                        &nbsp; &nbsp; - There are three supported audio formats in HTML:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * mp3<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * wav<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * ogg<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                        &ltaudio <u>controls autoplay loop muted</u>&gt<br>
+                        &nbsp; &nbsp; &nbsp;&ltsource src="URL" type="audio_formate"&gt<br> 
+                        &nbsp; &nbsp; &nbsp;Your browser does not support the html audio tag.<br>  
+                        &lt/audio&gt</div><br>
+                        Here,<br>
+                        &nbsp; controls, autoplay, loop, muted all are the Attributes of &ltaudio&gt tag.<br><br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">CONTROLS</span> : displayed play/pause buttons<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">AUTOPLAY</span> : specifies that audio will start as soon as it is ready<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">LOOP</span> : specifies that audio file will be start again when it's compeleted<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">MUTED</span> : used to mute the audio<br><br>
+                        <div id="example"><u>EXAMPLE</u>:<br><br>
+                            <audio controls muted loop style="outline: 1px solid black; border-radius: 5px;">
+                                <source src="../Q-1/AUDIOS/01. Audio.mp3" type="audio/mp3">
+                                <!-- <source src="../AUDIO/AUDIO_FILES/01. Audio.ogg" type="audio/ogg"> -->
+                            </audio>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">2. &ltvideo&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - The HTML video tag is used for streaming video files.<br>
+                        &nbsp; &nbsp; - There are three supported audio formates in HTML:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * mp4<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * webM<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * ogg<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                        &ltvideo <u>controls autoplay loop muted height="value" width="value" poster</u>&gt<br>
+                        &nbsp; &nbsp; &nbsp;&ltsource src="URL" type="audio_formate"&gt<br> 
+                        &nbsp; &nbsp; &nbsp;Your browser does not support the html audio tag.<br>  
+                        &lt/video&gt</div><br>
+                        Here,<br>
+                        &nbsp; controls, autoplay, loop, muted, height, width, poster all are the Attributes of &ltaudio&gt tag.<br><br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">CONTROLS</span> : displayed play/pause buttons<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">AUTOPLAY</span> : specifies that video will start as soon as it is ready<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">LOOP</span> : specifies that video file will be start again when it's compeleted<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">MUTED</span> : used to mute the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">HEIGHT</span> : Sets the height of the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">WIDTH</span> : Sets the width of the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">POSTER</span> : Specifies an image to be shown while the video is downloading, or until user play the video<br><br>
+                        <div id="example" style="width: 295px;"><u>EXAMPLE</u>:<br><br>
+                            <video controls muted loop height="500px" poster="../Q-1/POSTERS/IMG_20230511_121448.jpg">
+                                <source src="../Q-1/VIDEOS/______imd______-20230511-0001.mp4" type="video/mp4">
+                                <!-- <source src="../AUDIO/AUDIO_FILES/01. Audio.ogg" type="audio/ogg"> -->
+                            </video>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">3. &ltembed&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &lembed&gt tag is used to embed an external document in an HTML file.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltembed src="URL"&gt &nbsp; &nbsp; &lt/embed&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <embed width="560" height="315" src="https://www.youtube.com/embed/dF7K3Fi2Zhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-left: 180px;"></embed>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">4. &ltsource&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltsource&gt tag is used as child element.<br>
+                        &nbsp; &nbsp; - For define more than one media resources, we need to use &ltsource&gt tag.<br>
+                        &nbsp; &nbsp; - We can embed multiple resources with the same content but different format through the &ltsource&gt tag.<br>
+                        &nbsp; &nbsp; - The browser may choose the most compatible format and play that media file.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltsource src=" " type=" "&gt  
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">5. &ltarticle&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltarticle&gt tag specifies independent and self-contained content.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltarticle&gt<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/article&gt
+                        </div><br>
+                        <div id="example"><u>EXAMPLE</u>:<br><br>
+                        <article>
+                            <h1 style="color: black; text-decoration: underline rgb(71, 98, 100);">&ltarticle> TAG:</h1><br>
+                            <p style="color: black;">&ltarticle&gt tag specifies independent and self-contained content.</p>
+                        </article></div>
+                    </dd><br>
+                    <dt><span id="dt">6. &ltprogress&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltprogress&gt tag is used to display the progress of a task.<br>
+                        &nbsp; &nbsp; - It is mostly used to show the progress of a file uploading on the web page.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltprogress value="value" max="value"&gt &lt/progress&gt
+                        </div><br>
+                        Here,<br>
+                        &nbsp; value and max are Attributes of the &ltprogress&gt tag.<br><br>
+                        <span style="color: rgb(71, 98, 100);">MAX</span> : Specifies how much work the task requires in total.<br>
+                        <span style="color: rgb(71, 98, 100);">VALUE</span> : Specifies how much of the task has been completed.<br><br>
+                        <div id="example"><u>EXAMPLE</u>:<br><br>
+                            HTML: <progress value="10" max="25">
+                            </progress><br><br>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">7. &ltheader&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltheader&gt tag is used to define the header for a document.<br>
+                        &nbsp; &nbsp; - &ltheader&gt tag containes:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; * Heading Elements [&lth1&gt to &lth6&gt]<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; * Logo or Icon<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltheader&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/header&gt
+                        </div><br>
+                        <div id="example" style="position: relative; height: 70px; width: 100%;"><u>EXAMPLE</u>:<br><br>
+                            <header id="header" style="position: absolute;">
+                                <div class="logo2">
+                                    <img src="../IMAGES/02. Logo2.jpg" alt="">
+                                </div>
+                                <div class="menuu">
+                                    <ul>
+                                        <li>VEHICLES</li>
+                                        <li>PURCHASE</li>
+                                        <li>OWNERS</li>
+                                        <li>EXPLORE</li>
+                                    </ul>
+                                </div>
+                            </header>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">8. &ltfooter&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltfooter&gt tag is used to define the footer for a document.<br>
+                        &nbsp; &nbsp; - It is generally used in the last of the section (bottom of the page).<br>
+                        &nbsp; &nbsp; - &lfooterr&gt tag containes:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; * Contact Information<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; * Sitemap<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; * Back to Top Link<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltfooter&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/footer&gt
+                        </div><br>
+                        <div id="example" style="position: relative; height: 190px; width: 100%;"><u>EXAMPLE</u>:<br><br>
+                            <footer id="footer" style="position: absolute;">
+                                <span id="my">Mystery Code</span>
+                                <span id="details">Mystery Code is a blog Website where you will find great tutorials on web design<br>
+                                &nbsp; &nbsp; and development. Here each tutorial is beautiful described step by step.</span>
+                                <div class="fontawesome">
+                                    <ul>
+                                        <li><i class="fa-brands fa-facebook"></i></li>
+                                        <li><i class="fa-brands fa-twitter"></i></li>
+                                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                                        <li><i class="fa-brands fa-linkedin"></i></li>
+                                    </ul>
+                                </div>
+                            </footer>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">9. &ltnav&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - When you don't want to create a header in your website, instead of header you can create navigation.<br>
+                        &nbsp; &nbsp; - If you want to create a navigation in your website, you need &ltnav&gt tag.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltnav&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/nav&gt
+                        </div><br>
+                        <div id="example" style="position: relative; height: 70px; width: 100%;"><u>EXAMPLE</u>:<br><br>
+                            <nav id="header" style="position: absolute;">
+                                <div class="logo2">
+                                    <img src="../IMAGES/02. Logo2.jpg" alt="">
+                                </div>
+                                <div class="menuu">
+                                    <ul>
+                                        <li>VEHICLES</li>
+                                        <li>PURCHASE</li>
+                                        <li>OWNERS</li>
+                                        <li>EXPLORE</li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">10. &ltaside&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltaside&gt tag provides information about the main content.<br>
+                        &nbsp; &nbsp; - The aside content should be indirectly related to the surrounding content.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltaside&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/aside&gt
+                        </div><br>
+                        <div id="example" style="position: relative; height: 356px; width: 100%;"><u>EXAMPLE</u>:<br><br>
+                        <div id="aside">
+                            <p style="position: absolute; top: 5px; left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem mollitia ipsa earum cum!<br> Maxime minima quod doloribus alias nam.</p>
+                            <p style="position: absolute; top: 70px; left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem mollitia ipsa earum cum!<br> Maxime minima quod doloribus alias nam.</p>
+                            <p style="position: absolute; top: 130px; left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi rem mollitia ipsa earum cum! Maxime minima quod<br> doloribus alias nam.</p>
+                            <p style="position: absolute; top: 220px; left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi rem mollitia ipsa earum cum! Maxime minima quod doloribus alias nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora alias exercitationem blanditiis officiis dicta magni.</p>
+                            <aside>
+                                Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Velit magni modi<br> accusamus cumque. Asperiores error velit<br> optio hic. Molestiae expedita deserunt<br> distinctio numquam fuga molestias <br>necessitatibus fugiat iste placeat quidem!
+                            </aside>
+                        </div>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">11. &ltmain&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltbody&gt is used to represent the main content of the &ltbody&gt tag.<br>
+                        &nbsp; &nbsp; - The &ltmain&gt element should not used as a child of an &ltarticle&gt, &ltaside&gt, &ltheader&gt, &ltfooter&gt, or &ltnav&gt element.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltmain&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/main&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <main>
+                                <h1 style="background-color: rgb(199, 240, 249); padding: 3px 5px;">HTML5</h1>
+                                <p>- HTML5 is markup language. <br>
+                                - HTML5 is used to structuring and presenting content on the 'World Wide Web.'<br>
+                                - It is the fifth and final major HTML version.</p>
+                            </main>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">12. &ltfigure&gt and &ltfigcaption&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - We need to use &ltFigure&gt Tag, When we want to put any images, illustrations, diagrams, etc.<br>
+                        &nbsp; &nbsp; - &ltfigcaption&gt is used to provide a caption to an image.<br>
+                        &nbsp; &nbsp; - &ltfigcaption&gt is an optional tag and can appear before or after the content within the &ltfigure&gt tag.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltfigure&gt<br>
+                            &nbsp; &nbsp; &nbsp; &ltimg src="URL"&gt alt="value"<br>
+                            &nbsp; &nbsp; &nbsp; &ltfigcaption&gt "caption" &lt/figcaption&gt<br>
+                            &lt/figure&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                        <figure>
+                            <img src="../IMAGES/03. Brown_Flower.jpg" alt="" style="margin-left: 280px;">
+                            <figcaption style="margin-left: 355px;">BROWN FLOWER</figcaption>
+                        </figure>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">13. &ltmark&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - HTML &ltmark&gt tag is used to highlight the some text part inside of another element.<br>
+                        &nbsp; &nbsp; - If you want highlight some lines of the paragraph, you need to use &ltmark&gt tag.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltmark&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/mark&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                        <p><mark>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</mark> Veniam iure provident, voluptatem,<br> id voluptatibus soluta tempore, aut quo quibusdam reprehenderit asperiores quos perferendis et mollitia assumenda<br> vel cupiditate. Provident, necessitatibus.</p>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">14. &ltdetails&gt and &ltsummary&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltsummary&gt tag is used together with a relevant tag known as &ltdetails&gt.<br>
+                        &nbsp; &nbsp; - &ltdetails&gt is used to specify the additional details on the web page that the user can view or hide on demand.<br>
+                        &nbsp; &nbsp; - It is used together with a relevant tag known as &ltsummary&gt.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltdetails&gt<br>
+                            &nbsp; &nbsp; &nbsp; &ltsummary&gt "content" &lt/summary&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/details&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <details>
+                                <summary style="color: black;">W3Schools</summary>
+                                <p style="color: black;">- W3Schools is popular tutorial website.</p>
+                                <p style="color: black;">- You can learn various tutorials on W3Schools such as HTML, CSS, JavaScript, Java, Android.</p>
+                            </details>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">15. &ltsection&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &ltsection&gt tag is used to define sections in a document.<br> 
+                        &nbsp; &nbsp; - When you put your content on a web page, it may contains many chapters, headers, footers.<br>
+                        &nbsp; &nbsp; - That's why we need to use &ltsection&gt tag.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltsection&gt<br>
+                            &nbsp; &nbsp; &nbsp; //content<br>
+                            &lt/section&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <section>
+                                <h1 style="color: rgb(131, 86, 8);">HTML</h1>
+                                <p>HyperText Markup Language</p>
+                            </section><br>
+                            <section>
+                                <h1 style="color: rgb(131, 86, 8);">CSS</h1>
+                                <p>CasCading Style Sheet</p>
+                            </section>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">16. &lttime&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - &lttime&gt tag is used to define date and time.<br>
+                        &nbsp; &nbsp; - It displays time value in a 24 hour clock.<br>
+                        &nbsp; &nbsp; - It helps search engines to produce smarter search results.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &lttime <u>datetime</u>="value"&gt<br>
+                            &nbsp; &nbsp; &nbsp; //date and time<br>
+                            &lt/time&gt
+                        </div><br>
+                        Here, <br>
+                        &nbsp; &nbsp; Three ways of putting value in side the &lttime&gt tag.<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 1. &lttime&gt 07:00 &lt/time&gt<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 2. &lttime datetime="2002-08-11"&gt next wednesday &lt/time&gt<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 3. &lttime datetime="2002-08-11 T0 7:00-09:00"&gt 7pm last wednesday &lt/time&gt<br><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <p>Lecture will be start at <time>1:00</time> PM.</p>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">17. &ltsvg&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - SVG stands for "Scalable Vector Graphics."<br>
+                        &nbsp; &nbsp; - SVG images are Zoomable, which means images do not lose their quality when zoomed.<br>
+                        &nbsp; &nbsp; - By using SVG, we can draw paths, boxes, circles, text etc.<br> 
+                        &nbsp; &nbsp; - SVG is W3C recommendation.<br>
+                        &nbsp; &nbsp; - SVG images can be created with any text editor.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltsvg&gt<br>
+                            &nbsp; &nbsp; &nbsp; //svg code<br>
+                            &lt/svg&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <svg width="100" height="100">
+                                <circle cx="50" cy="50" r="40" stroke="rgb(131, 86, 8)" stroke-width="2" fill="rgb(198, 226, 227)">
+                            </svg>
+                        </div><br>
+                        &nbsp; &nbsp; - Thus, we can draw many shapes by using SVG.
+                    </dd><br>
+                    <dt><span id="dt">18. &ltcanvas&gt</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - The HTML &ltcanvas&gt element is used to draw graphics on a web page.<br>
+                        &nbsp; &nbsp; - We need JavaScript, for drawing graphics by using &ltcanvas&gt element.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltcanvas id="value" width="value" height="value"&gt<br>
+                            &nbsp; &nbsp; //canvas code<br>
+                            &lt/canvas&gt
+                        </div><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+
+                            </canvas>
+                        </div><br>
+                        <b>NOTE:</b> &nbsp; You must have to specify <span style="color: red;">id</span>. (for JavaScript)<br>
+                        &nbsp; &nbsp; - After creating the rectangular canvas, you must add a JavaScript to do the drawing.<br><br>
+                        <h3 style="border: 1px solid black; padding: 3px 5px; text-align: center; margin-bottom: 5px; color: rgb(131, 86, 8);">DRAW A LINE:</h3>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltcanvas id="value" width="value" height="value"&gt&lt/canvas&gt<br>
+                            &ltscript&gt<br>
+                            &nbsp; &nbsp; var variable_name = document.getElementById("value");<br>
+                            &nbsp; &nbsp; var context = variable_name.getContext("value");<br>
+                            &nbsp; &nbsp; variable_name.moveTo(x,y);<br>
+                            &nbsp; &nbsp; variable_name.lineTo(200,100);<br>
+                            &nbsp; &nbsp; variable_name.stroke();<br>
+                            &lt/script&gt
+                        </div><br>
+                        Here, <br><br>
+                        - <span style="color: rgb(71, 98, 100);">id</span> : The &ltcanvas&gt element must have an id attribute(for JS)<br>
+                        - <span style="color: rgb(71, 98, 100);">HEIGHT</span> : define the height of canvas.<br>
+                        - <span style="color: rgb(71, 98, 100);">WIDTH</span> : define the width of canvas.<br>
+                        - <span style="color: rgb(71, 98, 100);">getElementById()</span> : it's a DOM Method(for find the canvas element)<br>
+                        - <span style="color: rgb(71, 98, 100);">getContext()</span> : it's built-in HTML function.<br>
+                        - <span style="color: rgb(71, 98, 100);">moveTo()</span> : defines the starting point of the line.<br>
+                        - <span style="color: rgb(71, 98, 100);">lineTo()</span> : defines the ending point of the line.<br>
+                        - <span style="color: rgb(71, 98, 100);">stroke()</span> : It's a ink method (for drawing a line you must use this method like stroke())<br><br>
+                        <div id="example" style="width: 262px;"><u>EXAMPLE </u>:<br><br>
+                            <canvas id="mycanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                            <script>
+                                var canvas = document.getElementById("mycanvas");
+                                var context = canvas.getContext("2d");
+                                context.moveTo(0, 0);
+                                context.lineTo(200, 100);
+                                context.stroke();
+                            </script>
+                        </div><br>
+                    </dd>
+                </dl>
+            </p>
+        </main>
+        <!-- MAIN CONTENT OVER -->
+
+        <!-- FOOTER START -->
+        <footer>
+            <div class="footer">
+                <ul>
+                    <li style="margin-left: 900px;"><a href="../Q-2/Q-2.html" target="_self">NEXT</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- FOOTER OVER -->
+    </div>
+</body>
+</html>

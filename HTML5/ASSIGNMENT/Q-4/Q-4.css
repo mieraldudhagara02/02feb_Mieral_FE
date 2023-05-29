@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER-4 START */
+.container4{
+    position: relative;
+}
+
+/* HEADER START */
+header{
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+
+/* LOGO */
+.logo img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+}
+
+/* MENU */
+.menu{
+    position: absolute;
+    left: 400px;
+    line-height: 3.5;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid rgb(131, 86, 8);
+    color: black;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background-color: rgb(131, 86, 8);
+    color: white;
+}
+/* HEADER OVER */
+
+/* MAIN CONTENT START */
+
+/* QUESTION */
+.question4{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    text-decoration: underline rgb(131, 86, 8);
+}
+
+/* ANSWER */
+.answer4{
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    font-size: 20px;
+}
+.list{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 20px;
+}
+#dt{
+    border: 2px solid rgb(131, 86, 8); 
+    padding: 3px 5px;
+    font-size: 30px;
+}
+.list dt, dd{
+    margin-top: 5px;
+}
+#syntax{
+    border: 2px solid rgb(144, 198, 201);
+    color: rgb(71, 98, 100);
+    padding: 3px 5px;
+}
+#example{
+    border: 2px solid rgb(144, 198, 201);
+    color: rgb(71, 98, 100);
+    padding: 3px 5px;
+}
+/* MAIN CONTENT OVER */
+/* CONTAINER-4 OVER */

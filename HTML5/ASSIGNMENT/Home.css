@@ -1,0 +1,92 @@
+.container{
+    height: 715px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: transparent;
+    border: 3px solid rgb(131, 86, 8);
+    border-radius: 150px;
+}
+.background{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    background-image: linear-gradient(90deg,rgb(1, 66, 48),rgb(144, 198, 201),transparent);
+}
+.bracket1{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 85px;
+    left: 80px;
+    font-size: 170px;
+    background-color: transparent ;
+}
+.text{
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    background-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+.bracket2{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 35px;
+    left: 1200px;
+    font-size: 170px;
+    color: rgb(131, 86, 8);
+    background-color: transparent ;
+}
+.q1{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.q1 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(131, 86, 8);
+}
+.q2{
+    position: absolute;
+    top: 390px;
+    left: 400px;
+}
+.q2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(131, 86, 8);
+}
+.q3{
+    position: absolute;
+    top: 430px;
+    left: 400px;
+}
+.q3 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(131, 86, 8);
+}
+.q4{
+    position: absolute;
+    top: 470px;
+    left: 400px;
+}
+.q4 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(131, 86, 8);
+}

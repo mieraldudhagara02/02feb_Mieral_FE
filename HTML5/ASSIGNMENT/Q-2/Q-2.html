@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-2.css">
+    <title> Question-2 </title>
+</head>
+<body>
+    <div class="container2">
+
+        <!-- HEADER START -->
+        <header>
+            <div class="logo">
+                <img src="../IMAGES/01. Logo.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../Home.html" target="_self">HOME</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- HEADER OVER -->
+
+        <!-- MAIN CONTENT START -->
+        <main>
+            <h1 class="question2">2. HOW TO EMBED AUDIO AND VIDEO IN A WEBPAGE?</h1>
+
+            <p class="answer2">
+                <dl class="list">
+                    <dt><span id="dt">1. AUDIO:</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - HTML audio tag is used to define sounds such as music and other audio clips.<br>
+                        &nbsp; &nbsp; - There are three supported audio formats in HTML:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * mp3<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * wav<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * ogg<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                        &ltaudio <u>controls autoplay loop muted</u>&gt<br>
+                        &nbsp; &nbsp; &nbsp;&ltsource src="URL" type="audio_formate"&gt<br> 
+                        &nbsp; &nbsp; &nbsp;Your browser does not support the html audio tag.<br>  
+                        &lt/audio&gt</div><br>
+                        Here,<br>
+                        &nbsp; controls, autoplay, loop, muted all are the Attributes of &ltaudio&gt tag.<br><br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">CONTROLS</span> : displayed play/pause buttons<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">AUTOPLAY</span> : specifies that audio will start as soon as it is ready<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">LOOP</span> : specifies that audio file will be start again when it's compeleted<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">MUTED</span> : used to mute the audio<br>
+                        There is also a need of &ltsource&gt tag in &ltaudio&gt tag.<br><br>
+                        <span id="dt">&ltsource&gt</span><br><br>
+                        &nbsp; &nbsp; - &ltsource&gt tag is used as child element.<br>
+                        &nbsp; &nbsp; - For define more than one media resources, we need to use &ltsource&gt tag.<br>
+                        &nbsp; &nbsp; - We can embed multiple resources with the same content but different format through the &ltsource&gt tag.<br>
+                        &nbsp; &nbsp; - The browser may choose the most compatible format and play that media file.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltsource src=" " type=" "&gt  
+                        </div><br>
+                        <div id="example"><u>EXAMPLE</u>:<br><br>
+                            <audio controls muted loop style="outline: 1px solid black; border-radius: 5px;">
+                                <source src="../Q-1/AUDIOS/01. Audio.mp3" type="audio/mp3">
+                                <!-- <source src="../AUDIO/AUDIO_FILES/01. Audio.ogg" type="audio/ogg"> -->
+                            </audio>
+                        </div>
+                    </dd><br>
+                    <dt><span id="dt">2. VIDEO:</span></dt>
+                    <dd>
+                        &nbsp; &nbsp; - The HTML video tag is used for streaming video files.<br>
+                        &nbsp; &nbsp; - There are three supported audio formates in HTML:<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * mp4<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * webM<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * ogg<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                        &ltvideo <u>controls autoplay loop muted height="value" width="value" poster</u>&gt<br>
+                        &nbsp; &nbsp; &nbsp;&ltsource src="URL" type="audio_formate"&gt<br> 
+                        &nbsp; &nbsp; &nbsp;Your browser does not support the html audio tag.<br>  
+                        &lt/video&gt</div><br>
+                        Here,<br>
+                        &nbsp; controls, autoplay, loop, muted, height, width, poster all are the Attributes of &ltaudio&gt tag.<br><br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">CONTROLS</span> : displayed play/pause buttons<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">AUTOPLAY</span> : specifies that video will start as soon as it is ready<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">LOOP</span> : specifies that video file will be start again when it's compeleted<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">MUTED</span> : used to mute the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">HEIGHT</span> : Sets the height of the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">WIDTH</span> : Sets the width of the video<br>
+                        &nbsp; <span style="color: rgb(71, 98, 100);">POSTER</span> : Specifies an image to be shown while the video is downloading, or until user play the video<br><br>
+                        <div id="example" style="width: 295px;"><u>EXAMPLE</u>:<br><br>
+                            <video controls muted loop height="500px" poster="../Q-1/POSTERS/IMG_20230511_121448.jpg">
+                                <source src="../Q-1/VIDEOS/______imd______-20230511-0001.mp4" type="video/mp4">
+                                <!-- <source src="../AUDIO/AUDIO_FILES/01. Audio.ogg" type="audio/ogg"> -->
+                            </video>
+                        </div><br>
+                        We can also embed Video by using &ltembed&gt tag.<br><br>
+                        <span id="dt">&ltembed&gt</span><br><br>
+                        &nbsp; &nbsp; - &lembed&gt tag is used to embed an external document in an HTML file.<br><br>
+                        <div id="syntax"><u>SYNTAX</u>:<br><br>
+                            &ltembed src="URL"&gt &nbsp; &nbsp; &lt/embed&gt
+                        </div><br>
+                        <div id="example" style="position: relative;"><u>EXAMPLE</u>:<br><br>
+                            <embed width="560" height="315" src="https://www.youtube.com/embed/dF7K3Fi2Zhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-left: 180px;"></embed>
+                        </div>
+                    </dd><br>
+                </dl>
+            </p>
+        </main>
+        <!-- MAIN CONTENT OVER -->
+
+        <!-- FOOTER START -->
+        <footer>
+            <div class="footer">
+                <ul>
+                    <li style="margin-left: 900px;"><a href="../Q-3/Q-3.html" target="_self">NEXT</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- FOOTER OVER -->
+</body>
+</html>
