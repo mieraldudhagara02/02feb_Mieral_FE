@@ -1,0 +1,8 @@
+li::marker{
+    color: red;
+}
+ul, li{
+    color: rgb(93, 88, 88);
+    margin: 5px;
+    list-style: square;
+}

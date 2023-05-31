@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Child Selector </title>
+    <!-- The CSS child selector is used to select all child elements with a particular parent element. -->
+    <style>
+        div > p{
+            color: rgb(1, 59, 1);
+            background-color: rgb(203, 255, 203);
+        }
+
+        p > span{
+            color: rgb(37, 0, 56);
+            background-color: rgb(227, 184, 249);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <!-- This is Parent Tag [div] -->
+        <p> This is Child Tag. </p>
+        <!-- This is Child Tag [p] -->
+    </div>
+    <p> This is <span>Paragraph</span> Tag. </p>
+</body>
+</html>

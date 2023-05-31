@@ -1,0 +1,781 @@
+@media (max-width:500px){
+    /* HEADER START */
+    header{
+        height: 20px;
+        width: 500px;
+        background-color: rgba(208, 221, 224, 0.5);
+    }
+    .left{
+        height: 20px;
+        width: 70%;
+        background-color: transparent;
+        float: left;
+        font-size: xx-small;
+        line-height: 20px;
+    }
+    .left ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .right{
+        height: 20px;
+        width: 30%;
+        background-color: transparent;
+        float: left;
+        font-size: xx-small;
+        line-height: 20px;
+    }
+    .right ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    /* HEADER OVER */
+
+    /* NAVIGATION START */
+    nav{
+        height: 30px;
+        width: 500PX;
+        background-color: transparent;
+        margin: 3px 0px;
+    }
+
+    /* LOGO */
+    #logo{
+        height: 30px;
+        width: 20%;
+        float: left;
+        background-color: transparent;
+        margin: 5px 0px;
+        line-height: 1.4;
+    }
+
+    /* MIDDLE DIV */
+    #middlediv{
+        display: none;
+    }
+    #middle{
+        display: none;
+    }
+    #middlle{
+        display: none;
+    }
+
+    /* RIGHT DIV */
+    #rightdiv{
+        display: none;
+    }
+    #right{
+        height: 10px;
+        float: right;
+        display: block;
+        margin: 5px 3px 0px 0px;
+    }
+    /* NAVIGATION OVER */
+
+    /* CONTENT START */
+    .container1{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    .img{
+        position: absolute;
+        width: 278px;
+        height: 250px;
+    }
+    .n{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #fe626c;
+        padding: 2px 7px;
+        color: white;
+    }
+    .d{
+        top: 260px;
+        font-size: 20px;
+        position: absolute;
+        color: black;
+        left: 75px;
+    }
+    .p{
+        top: 290px;
+        left: 85px;
+        position: absolute;
+        font-size: 20px;
+    }
+    .P{
+        top: 290px;
+        left: 150px;
+        position: absolute;
+        font-size: 20px;
+        color: gray;
+    }
+    .c{
+        position: absolute;
+        top: 340px;
+        font-size: 20px;
+        left: 70px;
+        color: white;
+        background-color: #2edbb8;
+        padding: 3px 5px;
+    }
+    .c:hover{
+        outline: 2px solid #2edbb8;
+        outline-offset: 4px;
+    }
+    .q{
+        position: absolute;
+        top: 0;
+        background: black;
+        color: white;
+        opacity: 0;
+        transition: 1s;
+        padding: 5px 90.8px;
+    }
+    .up:hover .q{
+        opacity: 1;
+        top: 55.5%;
+        padding: 5px 90.8px;
+    }
+    .q:hover{
+        background-color: #2edbb8;
+        color: white;
+    }
+    /* CONTAINER-2 START */
+    .container2{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-3 START */
+    .container3{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-4 START */
+    .container4{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-5 START */
+    .container5{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-6 START */
+    .container6{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-7 START */
+    .container7{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-8 START */
+    .container8{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 110px;
+        border: 1px solid black;
+    }
+    /* CONTENT OVER */
+
+    /* FOOTER START */
+    .footer img{
+        height: 200px;
+        width: 500px;
+    }
+    /* FOOTER OVER */
+}
+
+@media (min-width:501px) and (max-width:900px){
+    /* HEADER START */
+    header{
+        height: 20px;
+        width: 900PX;
+        background-color: rgba(208, 221, 224, 0.5);
+    }
+    .left{
+        height: 20px;
+        width: 70%;
+        background-color: transparent;
+        float: left;
+        font-size: small;
+        line-height: 20px;
+    }
+    .left ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .right{
+        height: 20px;
+        width: 30%;
+        background-color: transparent;
+        float: left;
+        font-size: small;
+        line-height: 20px;
+    }
+    .right ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    /* HEADER OVER */
+
+    /* NAVIGATION START */
+    nav{
+        height: 40px;
+        width: 900px;
+        background-color: transparent;
+        margin: 3px 0px;
+    }
+
+    /* LOGO */
+    #logo{
+        height: 40px;
+        width: 20%;
+        float: left;
+        background-color: transparent;
+        margin: 5px 0px;
+        line-height: 1.8;
+    }
+
+    /* MIDDLE DIV */
+    #middlediv{
+        display: none;
+    }
+    #middle{
+        height: 20px;
+        width: 70%;
+        float: left;
+        background-color: transparent;
+        display: block;
+        margin: 3px 3px 0px 80px;
+    }
+    #middle ul li{
+        list-style: none;
+        display: inline;
+        line-height: 10px;
+    }
+    #middlle{
+        height: 20px;
+        width: 70%;
+        float: left;
+        background-color: transparent;
+        display: block;
+        margin: 0px 0px 0px 80px;
+    }
+    #middlle ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 40px;
+        line-height: 20px;
+        font-size: xx-small;
+    }
+
+    /* RIGHT DIV */
+    #rightdiv{
+        display: none;
+    }
+    #right{
+        display: none;
+    }
+    /* NAVIGATION OVER */
+
+    /* CONTENT START */
+    .container1{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 20px 80px;
+        border: 1px solid black;
+    }
+    .img{
+        position: absolute;
+        width: 278px;
+        height: 250px;
+    }
+    .n{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #fe626c;
+        padding: 2px 7px;
+        color: white;
+    }
+    .d{
+        top: 260px;
+        font-size: 20px;
+        position: absolute;
+        color: black;
+        left: 75px;
+    }
+    .p{
+        top: 290px;
+        left: 85px;
+        position: absolute;
+        font-size: 20px;
+    }
+    .P{
+        top: 290px;
+        left: 150px;
+        position: absolute;
+        font-size: 20px;
+        color: gray;
+    }
+    .c{
+        position: absolute;
+        top: 340px;
+        font-size: 20px;
+        left: 70px;
+        color: white;
+        background-color: #2edbb8;
+        padding: 3px 5px;
+    }
+    .c:hover{
+        outline: 2px solid #2edbb8;
+        outline-offset: 4px;
+    }
+    .q{
+        position: absolute;
+        top: 0;
+        background: black;
+        color: white;
+        opacity: 0;
+        transition: 1s;
+        padding: 5px 90.8px;
+    }
+    .up:hover .q{
+        opacity: 1;
+        top: 55.5%;
+        padding: 5px 90.8px;
+    }
+    .q:hover{
+        background-color: #2edbb8;
+        color: white;
+    }
+    /* CONTAINER-2 START */
+    .container2{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 20px 90px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-3 START */
+    .container3{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 80px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTAINER-4 START */
+    .container4{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 90px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTAINER-5 START */
+    .container5{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 80px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTAINER-6 START */
+    .container6{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 90px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTAINER-7 START */
+    .container7{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 80px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTAINER-8 START */
+    .container8{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        margin: 20px 90px;
+        float: left;
+        border: 1px solid black;
+    }
+    /* CONTENT OVER */
+
+    /* FOOTER START */
+    .footer img{
+        height: 300px;
+        width: 900px;
+    }
+    /* FOOTER OVER */
+}
+
+@media (min-width:901px) and (max-width:1800px){
+    *{
+        margin: 0;
+    }
+    /* HEADER START */
+    header{
+        height: 20px;
+        width: auto;
+        background-color: rgba(208, 221, 224, 0.5);
+    }
+    .left{
+        height: 20px;
+        width: 70%;
+        background-color: transparent;
+        float: left;
+        font-size: small;
+        line-height: 20px;
+    }
+    .left ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 40px;
+        text-align: center;
+    }
+    .right{
+        height: 20px;
+        width: 30%;
+        background-color: transparent;
+        float: left;
+        font-size: small;
+        line-height: 20px;
+    }
+    .right ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    /* HEADER END */
+    
+    /* NAVIGATION START */
+    nav{
+        height: 30px;
+        width: auto;
+        background-color: transparent;
+        margin: 3px 0px;
+    }
+    
+    /* LOGO */
+    #logo{
+        height: 20px;
+        width: 10%;
+        float: left;
+        background-color: transparent;
+        margin: 5px 0px;
+    }
+    
+    /* MIDDLE DIV */
+    #middlediv{
+        height: 30px;
+        width: 50%;
+        float: left;
+        background-color: transparent;
+    }
+    #middlediv ul li{
+        list-style: none;
+        display: inline;
+        padding: 0px 50px;
+        line-height: 35px;
+    }
+    #middle{
+        display: none;
+    }
+    #middlle{
+        display: none;
+    }
+    
+    /* RIGHT DIV */
+    #rightdiv{
+        height: 30px;
+        background-color: transparent;
+        width: 40%;
+        float: left;
+    }
+    input{
+        border: 1px solid black;
+        border-radius: 2px;
+        margin: 0px 5px;
+    }
+    form::after{
+        content: '';
+        border: solid 1px black;
+    }
+    div#rightdiv ul li{
+        list-style: none;
+        display: inline;
+        line-height: 35px;
+        float: left;
+        padding: 0px 20px;
+    }
+    div#rightdiv img{
+        border-radius: 25px;
+    }
+    #right{
+        display: none;
+    }
+    #right{
+        display: none;
+    }
+    /* NAVIGATION END */
+
+    /* CONTENT START */
+    .container1{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    .img{
+        position: absolute;
+        width: 278px;
+        height: 250px;
+    }
+    .n{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: #fe626c;
+        padding: 2px 7px;
+        color: white;
+    }
+    .d{
+        top: 260px;
+        font-size: 20px;
+        position: absolute;
+        color: black;
+        left: 75px;
+    }
+    .p{
+        top: 290px;
+        left: 85px;
+        position: absolute;
+        font-size: 20px;
+    }
+    .P{
+        top: 290px;
+        left: 150px;
+        position: absolute;
+        font-size: 20px;
+        color: gray;
+    }
+    .c{
+        position: absolute;
+        top: 340px;
+        font-size: 20px;
+        left: 70px;
+        color: white;
+        background-color: #2edbb8;
+        padding: 3px 5px;
+    }
+    .c:hover{
+        outline: 2px solid #2edbb8;
+        outline-offset: 4px;
+    }
+    .q{
+        position: absolute;
+        top: 0;
+        background: black;
+        color: white;
+        opacity: 0;
+        transition: 1s;
+        padding: 5px 90.8px;
+    }
+    .up:hover .q{
+        opacity: 1;
+        top: 55.5%;
+        padding: 5px 90.8px;
+    }
+    .q:hover{
+        background-color: #2edbb8;
+        color: white;
+    }
+    /* CONTAINER-2 START */
+    .container2{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-3 START */
+    .container3{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-4 START */
+    .container4{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-5 START */
+    .container5{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        clear: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-6 START */
+    .container6{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-7 START */
+    .container7{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTAINER-8 START */
+    .container8{
+        height: 400px;
+        width: 278px;
+        filter: drop-shadow(2px 2px 5px gray);
+        background-color: white;
+        position: relative;
+        float: left;
+        margin: 42px;
+        border: 1px solid black;
+    }
+    /* CONTENT OVER */
+
+    /* FOOTER START */
+    .footer img{
+        height: 400px;
+        width: 1536px;
+    }
+    /* FOOTER OVER */
+}

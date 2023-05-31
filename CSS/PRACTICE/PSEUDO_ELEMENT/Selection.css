@@ -1,0 +1,11 @@
+b{
+    color: red;
+}
+b::selection{
+    color: white;
+    background-color: rgb(105, 82, 65);
+}
+div::selection{
+    color: white;
+    background-color: rgb(105, 82, 65);
+}

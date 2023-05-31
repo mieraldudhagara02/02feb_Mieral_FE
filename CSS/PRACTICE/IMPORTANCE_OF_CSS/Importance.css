@@ -1,0 +1,6 @@
+div{
+    height: 200px;
+    background-color: rgb(255, 168, 212);
+    border: solid 2px rgb(84, 0, 42);
+    margin: auto !important;
+}

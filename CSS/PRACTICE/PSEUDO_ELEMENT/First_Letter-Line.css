@@ -1,0 +1,15 @@
+b{
+    color: rgb(233, 86, 86);
+    background-color: white;
+    text-decoration: underline;
+}
+pre::first-letter{
+    color: darkgreen;
+    background-color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+pre::first-line{
+    background-color: rgb(89, 59, 39);
+    color: white;
+}
