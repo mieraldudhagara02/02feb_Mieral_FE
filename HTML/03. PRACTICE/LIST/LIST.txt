@@ -1,0 +1,63 @@
+LIST:-
+----
+1. Ordered List
+2. Un_Ordered List
+3. Description List
+4. Nested List
+
+1. ORDERED LIST:
+   ------------
+-  The list items will be marked with numbers by default.
+   
+	<ol start="value" type="value">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+Here, <ol> tag stands for Ordered_List
+      <li> tag stands for List_Items
+
+2. UNORDERED LIST:
+   --------------
+-  The list items will be marked with bullets (Small Black Circles) by default.
+
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+Here, <ul> tag is stands for Unordered_List
+      <li> tag is stands for List_Items
+
+3. DESCRIPTION LIST:
+   ----------------
+-A Description list is a list of terms, with a Description of each term.
+
+	<dl>
+		<dt>Coffee</dt>
+		<dd>-black hot drink-</dd>
+		<dt>Milk</dt>
+		<dd>-white cold drink-</dd>
+	</dl>
+
+Here, <dl> tag is stands for Description_List
+      <dt> tag is stands for Description_Title
+      <dd> tag is stands for Description_Data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

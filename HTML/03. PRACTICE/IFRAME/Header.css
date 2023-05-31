@@ -1,0 +1,26 @@
+.header{
+    height: 60px;
+    width: auto;
+    margin: 0;
+}
+.logo{
+    width: 60px;
+    float: left;
+    margin: 0%;
+}
+.menu{
+    height: 60px;
+    width: 60%;
+    float: right;
+}
+ul{
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0;
+} 
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 40px;
+}
