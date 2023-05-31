@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            margin: 110px auto;
+            background-color: #5f6f52;
+            outline: 3px solid black;
+            animation-name: miirall;
+            animation-direction: alternate;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes miirall{
+            to{background-color: #5f6f52;}
+            from{background-color: #a9b388; background-color: #fefae0; transform: rotate(120deg);}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

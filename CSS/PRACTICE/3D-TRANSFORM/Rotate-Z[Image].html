@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rotate-Z Image </title>
+    <style>
+        div{
+            backface-visibility: hidden;
+            transition: 1s;
+        }
+        div.original{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(253, 195, 253);
+            padding: 5px;
+            margin: 5px auto;
+        }
+        .perent{
+            height: 215px;
+            width: 380px;
+            background-color: transparent;
+            position: relative;
+            margin: 10px auto;
+        }
+        .child{
+            height: 215px;
+            width: 380px;
+            padding: 10px;
+            position: absolute;
+            outline: 2px solid black;
+            transition: 1s;
+            background: url(https://th.bing.com/th/id/OIP.z-pYaMBlP7_VjpYWCMnfNwHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+        }
+        .rotateZ{
+            transform: rotateZ(0deg);
+        }
+        .rotate{
+            transform: rotateZ(180deg);
+        }
+        .perent:hover .rotateZ{
+            transform: rotateZ(180deg);
+        }
+        .perent:hover .rotate{
+            transform: rotateZ(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="original">ORIGINAL</div>
+    <div class="perent">
+        <div class="child rotate">ROTATE</div>
+        <div class="child rotateZ">ROTATE-Z</div>
+    </div>
+</body>
+</html>

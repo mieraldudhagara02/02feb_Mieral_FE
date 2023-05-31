@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Display Flex </title>
+    <style>
+        .container{
+            height: 710px;
+            border: 4px double;
+            width: auto;
+            position: relative;
+            margin: 0;
+            display: flex;
+
+            /* FLEX-DIRECTION */
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+
+            /* --------------------------------------------------------------------------------------------------------------------------- */
+
+            /* FLEX WRAP */
+
+            flex-wrap: nowrap;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+
+            /* --------------------------------------------------------------------------------------------------------------------------- */
+
+            /* JUSTIFY CONTENT */
+
+            /* justify-content: baseline; */
+            /* justify-content: center; */
+            /* justify-content: end; */
+            justify-content: space-around;
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+            /* --------------------------------------------------------------------------------------------------------------------------- */
+
+            /* ALIGN ITEM */
+
+            /* align-items: baseline; */
+            align-items: center;
+            /* align-items: end; */
+
+            /* --------------------------------------------------------------------------------------------------------------------------- */
+        }
+        .class{
+            height: 150px;
+            width: 150px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 5;
+            border: 1px solid;
+            margin: 3px;
+        }
+        .m1{
+            flex-grow: 2;
+            order: 3;
+        }
+        .m2{
+            flex-grow: 3;
+            /* The Flex-Grow  property specifies how much the item will grow */
+            order: 5;
+        }
+        .m3{
+            flex-shrink: 4;
+            /* The Flex-Shrink property specifies how much the item will shrink */
+            order: 1;
+        }
+        .m4{
+            order: 4;
+            /* align-self: flex-start; */
+            align-self: center;
+        }
+        .m5{
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class m1" style="background-color: rgb(223, 247, 255);">1</div>
+        <div class="class m2" style="background-color: rgb(234, 234, 234);">2</div>
+        <div class="class m3" style="background-color: rgb(253, 231, 234);">3</div>
+        <div class="class m4" style="background-color: rgb(217, 254, 217);">4</div>
+        <div class="class m5" style="background-color: rgb(252, 226, 215);">5</div>
+    </div>
+</body>
+</html>

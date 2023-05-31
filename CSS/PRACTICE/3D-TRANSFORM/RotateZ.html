@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rotate-Z </title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            margin: 3px auto;
+            padding: 5px;
+            transition: 1s;
+            backface-visibility: hidden;
+        }
+        .perent{
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            transition: 1s;
+        }
+        .rotateZ{
+            transform: rotateZ(0deg);
+        }
+        .rotate{
+            transform: rotateZ(180deg);
+        }
+        .perent:hover .rotateZ{
+            transform: rotateZ(180deg);
+        }
+        .perent:hover .rotate{
+            transform: rotateZ(0deg);
+        } 
+    </style>
+</head>
+<body>
+    <div class="original" style="background-color: #44576d;">ORIGINAL</div>
+    <div class="perent" style="background-color: transparent;">
+        <div class="child rotate" style="background-color: #aac7d8">ROTATE</div>
+        <div class="child rotateZ" style="background-color: #768a96;">ROTATE-Z</div>
+    </div>
+</body>
+</html>

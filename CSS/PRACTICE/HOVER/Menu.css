@@ -1,0 +1,36 @@
+nav{
+    height: 30px;
+    width: auto;
+    background-color: lavenderblush;
+}
+ul.dropdown li{
+    list-style: none;
+    display: inline;
+    padding: 0px 200px;
+    line-height: 1.8;
+}
+ul.dropdown{
+    height: 30px;
+    width: auto;
+    background-color: transparent;
+}
+ul.dropdown li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown .subdropdown{
+    height: auto;
+    position: absolute;
+    display: none;
+    top: 50px;
+    left: -1%;
+}
+.dropdown .subdropdown li{
+    display: block;
+}
+.dropdown:hover .subdropdown{
+    display: block;
+    background-color: rgb(238, 221, 254);
+    border-radius: 4px;
+    margin: 0px 30px;
+}

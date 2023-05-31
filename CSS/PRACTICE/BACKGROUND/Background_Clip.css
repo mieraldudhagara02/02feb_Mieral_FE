@@ -1,0 +1,18 @@
+div{
+    height: 450px;
+    width: 700px;
+    background: #997070;
+    border: 20px solid rgba(250, 203, 211, 0.5);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    /* background-clip: border-box; */
+    background-clip: padding-box;
+    /* background-clip: content-box; */
+
+
+
+    /* border-box  : Default value. The background extends behind the border	
+       padding-box : The background extends to the inside edge of the border	
+       content-box : The background extends to the edge of the content box */
+}

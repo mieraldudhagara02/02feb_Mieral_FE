@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Display Grid </title>
+    <style>
+        .container{
+            height: 620px;
+            border: 4px double;
+            width: auto;
+            position: relative;
+            margin: 0;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 200px 200px 200px;
+            /* column-gap: 10px;
+            row-gap: 10px; */
+
+            gap: 10px 10px;
+            /* GAP IS SHORTHAND PROPERTY */
+        }
+        .grid{
+            background-color: white;
+            filter: drop-shadow(3px 3px 3px black);
+            font-size: 30px;
+            text-align: center;
+            line-height: 5.5;
+            margin: 3px;
+        }
+        .m1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid m1">1</div>
+        <div class="grid m2">2</div>
+        <div class="grid m3">3</div>
+        <div class="grid m4">4</div>
+        <div class="grid m5">5</div>
+        <div class="grid m5">6</div>
+    </div>
+</body>
+</html>

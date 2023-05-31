@@ -1,0 +1,17 @@
+span{
+    counter-reset: m;
+}
+h3::before{
+    counter-increment: m;
+    content: counter(m) '. ';
+    /* margin-right: 5px; */
+}
+h3{
+    counter-reset: v;
+}
+p::before{
+    counter-increment: v;
+    /* content: counter(v) '. '; */
+    content: counter(m) '.' counter(v) ' ';
+    margin-left: 10px;
+}

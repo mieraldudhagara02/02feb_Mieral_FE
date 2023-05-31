@@ -1,0 +1,55 @@
+.a{
+    height: 25px;
+    width: auto;
+    text-align: center;
+    background-color: #ffa7ff;
+}
+.b{
+    height: 823px;
+    width: 462px;
+    /* width: auto; */
+    background-image: url(https://th.bing.com/th/id/OIP._w6jQCa7MhpVQ6N8wQ5BBAHaNK?pid=ImgDet&w=474&h=842&rs=1);
+    text-align: center;
+    /* background-repeat: repeat; */
+    padding: 10px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+}
+.c{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.wallpapersin4k.org/wp-content/uploads/2017/04/Need-More-Coffee-Wallpaper-8.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    height: 424px;
+    width: 565px;
+}
+.d{
+    text-align: center;
+    color: rgb(83, 62, 1);
+    height: 1000px;
+    width: auto;
+    background-image: url(https://th.bing.com/th/id/OIP.Z4zcQxp0zWEuuGcfAD4yAwAAAA?pid=ImgDet&w=199&h=125&c=7&dpr=1.3);
+    background-size: cover;
+    background-color: #ffa7ff;
+}
+.e{
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    background-image: linear-gradient(white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7);
+    /* background-image: linear-gradient( to right,white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7); */
+    /* background-image: linear-gradient( to left,white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7); */
+    /* background-image: linear-gradient( to top,white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7); */
+    /* background-image: linear-gradient( to bottom,white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7); */
+    /* background-image: linear-gradient( 135deg,white, #95b9c7, #87afc7, #659ec7, #3090c7, #357ec7); */
+}
+.f{
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    color: white;
+    /* by default shape ellipse */
+    /* background-image: radial-gradient(ellipse, white, #7f525d, #7e354d, #872657, #7d0552, #7d0542); */
+    background-image: radial-gradient(circle, white, #7f525d, #7e354d, #872657, #7d0552, #7d0542);
+}

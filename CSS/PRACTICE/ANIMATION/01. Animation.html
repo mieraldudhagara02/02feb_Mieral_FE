@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            background-color: #304f6d;
+            animation-name: miiral;
+
+            /* animation-direction: alternate; */
+            animation-direction: alternate-reverse;
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes miiral{
+            to{background-color: #304f6d; border-radius: 0px;}
+            from{background-color: #e2f3fd; background-color: #e6e1dd; border-radius: 300px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

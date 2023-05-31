@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        div{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            background-color: #1f2c2f;
+            animation-name: Miiral;
+            animation-duration: 2s;            
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Miiral{
+                0%{background-color: #1f2c2f; top: 100%; left: 0%;}
+                25%{background-color: #274654; top: 75%; left: 25%;}
+                50%{background-color: #a4c2c9; top: 50%; left: 50%;}
+                75%{background-color: #637575; top: 25%; left: 75%;}
+                100%{background-color: #756e; top: 0%; left: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
