@@ -1,0 +1,19 @@
+SEMANTIC & NON-SEMANTIC TAG:
+---------------------------
+ 
+- SEMANTIC TAG:- A Semantic element clearly describes its meaning to both the browser and the developer.
+  ex. <footer>, <main>, <aside>, <details>, <figcaption>, <figure>, <mark>, <nav>,
+      <summary>, <time>
+
+<article> : The Article element specifies independent, self-contained content
+<section> : The Section element defines a section in a document
+
+[Nesting <article> in <section> or Vice Versa]
+
+<header> : Header Tag is used as a container of introductory content or nevigation link.
+           Generally a <header> element contains one or more heading elements, logo or icons or
+           author's information.
+
+- NON-SEMANTIC TAG:- A Non-Semantic Tag tells nothing about its content.
+  ex. <div>, <span>
+ 

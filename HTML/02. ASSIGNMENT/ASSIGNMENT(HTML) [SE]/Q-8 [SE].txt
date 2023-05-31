@@ -1,0 +1,48 @@
+Q-8. In how many ways can a CSS be integrated as a web page?
+     -------------------------------------------------------
+
+1. INLINE CSS
+2. INTERNAL CSS
+3. EXTERNAL CSS
+
+
+--> Inline
+    ------
+
+Inline is the term used when you write your CSS code within the style attribute of any HTML element.
+
+e.g. 
+<p style="color:skyblue;"> Hello world! </p>
+
+
+
+--> Internal
+    --------
+
+Internal CSS is implemented within the head element of your web page.
+
+e.g. 
+<head>
+<style>
+p{
+color:lime;
+background-color:black;
+}
+</style>
+</head>
+
+
+
+--> External
+    --------
+
+External CSS implementation is done by creating a separate CSS file in your workspace and then
+linking them in every web page you create.
+
+e.g.
+<head>
+<link rel="text/css" href="your_CSS_file_location">
+</head>
+
+
+That's it.

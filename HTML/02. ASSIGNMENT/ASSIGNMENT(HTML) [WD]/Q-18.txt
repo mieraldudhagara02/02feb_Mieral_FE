@@ -1,0 +1,17 @@
+Q-18. What is SVG?
+      ------------
+
+-> SVG stands for Scalable Vector Graphics.
+                  ------------------------
+
+-> Every element and every attributr in SVG files can be animated.
+
+-> SVG is W3C recommendation.
+
+-> SVG images are scalable.
+
+-> SVG images can be printed with high quality at any resolution.
+
+-> SVG images are zoomable.
+
+-> Designer often use SVGs to display websites icons like buttons, as well as company logos.

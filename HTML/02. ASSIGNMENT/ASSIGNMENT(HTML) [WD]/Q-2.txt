@@ -1,0 +1,27 @@
+Q-2. What are Tags and Attributes in HTML?
+     -------------------------------------
+
+HTML TAGS:
+---------
+->  HTML Tags, They tell the browser how it should display content to the user. 
+->  A tag starts with a < bracket and ends with a > bracket. 
+->  Most tags exist in pairs in HTML. 
+->  Tags have an opening and closing part. 
+->  They are similar, except the closing part has a / sign after the opening bracket.
+
+Syntax:
+------
+Opening tag: <TagName>
+Closing tag: </TagName> 
+
+
+HTML ATTRIBUTES:
+---------------
+->  HTML attributes provide additional information about HTML elements.
+->  Attributes are always specified in the start tag
+->  Attributes usually come in name/value pairs like: name="value"
+
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+
+Example:-
+<a href="https://www.w3schools.com">Visit W3Schools</a>

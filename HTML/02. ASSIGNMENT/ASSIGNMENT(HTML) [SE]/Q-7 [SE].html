@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <style>
+        fieldset{
+            background-color: rgb(187, 234, 240);
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <h3>STUDENT REGISTRATION</h3>
+        <form action="https://www.w3schools.com/">
+            <label for="fnm"> Firstname: </label><br>
+            <input type="text" name="fnm" placeholder="Firstname" style="width: 50%;"><br><br>
+
+            <label for="mnm"> Middlename: </label><br>
+            <input type="text" name="mnm" placeholder="Middlename" style="width: 50%;"><br><br>
+
+            <label for="lnm"> Lastname: </label><br>
+            <input type="text" name="lnm" placeholder="Lastname" style="width: 50%;"><br><br>
+
+            <div>
+                <label for="course"> course: </label>
+            </div>
+            <select name="drop-down" id="">
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select><br><br>
+
+        <div>
+            <label for="gender"> Gender: </label><br>
+        </div>
+        <input type="radio" name="gender" id="">Male<br>
+        <input type="radio" name="gender" id="">Female<br>
+        <input type="radio" name="gender" id="">Female<br><br>
+
+        <label for="phn"> Phone: </label><br>
+        <input type="tel" name="phn" id="" required pattern="{0-9}" minlength="10" maxlength="14" placeholder="+91" style="width: 50%;"><br><br>
+
+        <label for="address"> Address: </label><br>
+        <textarea name="address" id="" cols="50" rows="6" placeholder="Address" style="width: 50%;"></textarea><br><br>
+
+        <label for="email"> Email: </label><br>
+        <input type="email" name="email" id="" required placeholder="Enter ypur Password" style="width: 50%;"><br><br>
+
+        <label for="password"> Password: </label><br>
+        <input type="password" name="password" id="" required pattern="{0-9, A-Z, a-z, @, _, -}" maxlength="6" placeholder="Enter your 6 digits password" style="width: 50%;"><br><br>
+
+        <label for="retype"> Re-type Password: </label><br>
+        <input type="password" name="retype" id="" required style="width: 50%;"><br><br>
+
+        <label for="submit"></label>
+        <input type="submit" name="submit" id="">
+        </form>
+    </fieldset>
+</body>
+</html>

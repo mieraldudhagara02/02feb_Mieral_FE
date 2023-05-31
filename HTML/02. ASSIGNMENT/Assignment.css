@@ -1,0 +1,84 @@
+h3{
+    background-color: #fccfd6;
+    display: inline;
+    padding: 2px 5px;
+} 
+h3:hover{
+    outline: 1px dashed #3e010a;
+    outline-offset: 2px;
+}
+.Assignment{
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Changa One', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+span:hover{
+    background-color: #fccfd6;
+    color: #5c0010;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.class_1{
+    height: 100px;
+    width: 200px;
+    background-color: #fccfd6;
+    border: 3px double #3e010a;
+    text-align: center;
+}
+.middle{
+    text-align: center;
+    margin: 3px 0px;
+}
+.same{
+    background-color: rgb(62, 59, 59);
+    color: whitesmoke;
+    text-align: center;
+    margin: 3px 400px 3px 0px;
+}
+.same:hover{
+    background-color: rgb(62, 59, 59);
+    color: rgb(245, 245, 245);
+    text-align: center;
+    margin: 3px 0px 3px 400px;
+}
+.CLASS{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #3e010a;
+    border: #3e010a solid 2px;
+    margin: 5px 800px 5px 0px;
+    text-align: center;
+}
+.CLASS:hover{
+    color: #3e010a;
+    border: none;
+}
+#id_1{
+    height: 100px;
+    width: 200px;
+    background-color: #fccfd6;
+    border: 3px double #3e010a;
+    text-align: center;
+}
+#ID{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #3e010a;
+    border: #3e010a solid 2px;
+    margin: 5px 800px 5px 0px;
+    text-align: center;
+}
+#ID:hover{
+    color: #3e010a;
+    border: none;
+}
+table{
+    border-style: inset;
+    text-align: center;
+}
+th, td{
+    border: 1px solid black;
+}

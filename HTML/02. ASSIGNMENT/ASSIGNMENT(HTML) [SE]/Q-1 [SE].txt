@@ -1,0 +1,70 @@
+Q-1. Defines the terms: Website, Webpage, Web-browser, Web-server, HTML, CSS.
+     ------------------------------------------------------------------------
+
+--> WEBSITE:
+    --------
+
+- A group of World Wide Web pages and media over the internet.
+- Website means collection of Homepage and Webpages.
+  
+  Homepage + Webpages = Website
+
+- A Website is a collection of Web pages and related content that is identified by a common domain name
+  and published on at least one web server.
+- Websites are typically dedicated to particular topic or purpose, such as news, education, commerce,
+  entertainment or social networking.
+  
+
+--> WEBPAGE:
+    --------
+
+- A Webpage is a single hypertext document available on World Wide Web.
+- It is also reffered to as "Page".
+- A Webpage is a document written in HTML and can be viewed on any web browser.
+- It is contained within the web server, which can be accessed by entering the URL for that Webpage.
+- Each Webpage is linked with a inique URL; hence two pages cannot have the same URL.
+- A Webpage may contain text, links for other pages, graphics, videos, etc.
+
+
+--> WEB BROWSER:
+    ------------
+
+- A Web browser is an application for accessing website.
+- When a user requests a web page fromn a particular website, the browser retrives its files from a 
+  webserver and then displays the page on the user's screen.
+- The most used browser is Google Chrome.
+- A Web browser is not the same thig as a search engine, though the two are often confused.
+- A Search Engine is a website that provides links to other websites.
+- The purpose of a web browsers is to fetch content from the World Wide Web and diplay it on a user's
+  device.
+
+
+--> WEB SERVER:
+    -----------
+
+- Web server is a computer where the web content is stored.
+- A Web server is software and hardware that uses HTTP nd other protocols to respond to client requests
+  made over the World Wide Web.
+- When client sends request for a web page, the web server search for the requested page if requested
+  page is found then it will send it to client with an HTTP response.
+- If the requested web page is not found, webserver will the send an HTTP response:Errorr 404 not found.
+
+
+--> HTML:
+    -----
+
+- HTML is stands for Hyper Text Markup Language.
+- With HTML you can create your own Website.
+- HTML is easy to learn.
+- HTML describes the structure of a web page.
+- HTML elements tell the browser how to display the content.
+- HTML is standard markup language.
+
+
+--> CSS:
+    ----
+
+- CSS is stands for Cascading Style Sheet.
+- CSS is used for describing the presentation of a document written in a markup language such as HTML.
+- CSS describes how HTML elements are to be displayed on screen, paper or in other media.
+- CSS saves a lot of work.   

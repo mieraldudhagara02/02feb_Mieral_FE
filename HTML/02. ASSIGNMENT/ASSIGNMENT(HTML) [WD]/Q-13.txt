@@ -1,0 +1,26 @@
+Q-13. What is the use of an iframe?
+      -----------------------------
+
+-> An iframe, also known as Inline Frame.
+
+-> An inline frame (iframe) is a HTML element.
+
+-> HTML iframe is used to display a nested webpage (a webpage within a webpage).
+
+-> An HTML iframe embeds another document within the current HTML document.
+
+-> An HTML iframe is defined with the <iframe> tag:
+   <iframe src="src"></iframe>
+
+		Here, "src" attribute specifies the web address (URL) of the inline frame page.
+
+- You can set the width and height of iframe by using "width" and "height" attributes.
+
+- By default, the attributes values are specified in pixels but you can also set them in percent.
+  i.e. 50%, 60% etc.
+
+ADVANTAGES OF IFRAME:
+_____________________
+- easy to use
+- well supported
+- allows embedding of third-party content

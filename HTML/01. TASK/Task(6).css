@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 70%;
+    width: auto;
+}
+img{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 10%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+}
+.menu{
+    height: 50px;
+    width: 90%;
+    background: transparent;
+    float: left;
+}
+.menu ul{
+    text-align: center;
+    line-height: 55px;
+}
+.menu ul li{
+    display: inline;
+    padding: 0px 50px;
+}
+.menu li a{
+    color: #000;
+}
+/* SLIDER */
+.slider img{
+    height: 650px;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+Q-20. What are Logical Tags and Physical Tags in HTML?
+      ------------------------------------------------
+
+- Logical and Physical Tags are used in HTML for better visibility and understanding of the text by
+   the user on the web page.
+- However, both tags differ from each other as suggested by their names.
+
+Logical Tags:-
+____________
+
+- Logical Tags are used in HTML to display the text according to the logical styles.
+
+- Following are the Logical Tags commonly used in HTML.
+
+-> <abbr>       - Defines an abbreviation
+-> <acronym>    - Defines an acronym
+-> <address>    - Defines an address element
+-> <cite>       - Defines a citation
+-> <code>       - Defines a computer text code
+-> <blockquote> - Defines a long quotation
+-> <kbd>        - Defines a keyboard text
+-> <q>          - Defines a short quotation
+-> <strong>     - Defines a strong text
+
+
+Physical Tags:-
+_____________
+
+- Physical Tags are used in HTML to provide actual physical formatting to the text.
+
+- Following are the Physical Tags commonly used in HTML.
+
+-> <b>     - Defines bold text
+-> <big>   - Defines big text
+-> <i>     - Defines italic text
+-> <small> - Defines small text
+-> <sup>   - Defines superscripted text
+-> <sub>   - Defines subscripted text
+-> <tt>    - Defines teletype text

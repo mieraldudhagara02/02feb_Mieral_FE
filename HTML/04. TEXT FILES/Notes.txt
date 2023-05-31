@@ -1,0 +1,198 @@
+HTML : Hyper Text Markup Language
+---------------------------------
+
+HTML is the code that is used to structure a web page and it's content.
+
+The Component used to design the stucture of websites are called HTML tags.
+
+HTML is not case sensitive.
+<html>=<HTML>
+<body>=<BODY>
+
+
+HTML Elements:
+-------------
+
+Element = Starttag + Content + Endtag
+_____________________________________
+- Most of html elements have opening & closing tags with content in between.
+- Some tag have no content in between.
+  ex. <br>
+
+
+HTML Attributes:
+---------------
+
+- Attributes are used to add more information to the tag.
+
+- <tagName attributeName = "attribute Value">
+
+ex. <html lang="en">
+    Here, lang="en" is an Attribute.
+
+
+
+
+--> Basic HTML Page:
+
+<!DOCTYPE html>                          tells browser you are using HTML5 
+<html>                                   root of an html document
+	<head>                                container for meta tag
+		<title> My First Page </title>     page title
+	</head>
+	<!-- this is a body tag -->           comment                     
+	<body>                                contains all data rendered by the browser
+		<p> This is a Paragraph </p>       paragraph tag
+	</body>
+</html>
+
+
+--> HTML tags:
+    ---------
+
+
+- A Container for some content or other HTML tags
+  ex. <p> This is a paragraph </p>
+          -------------------
+                   |
+                Content
+
+- <html></html> : parent tag of head and body/root tag
+  -------------
+
+- <br> : break line tag
+  ---- 
+
+- <h1></h1> to <h6></h6> : heading tag
+  ----------------------
+
+- <a></a> : used to add links to your page
+  -------
+  ex. <a href = "link" target="_blank|_self|_parent"> Name of Displaying by the link </a>
+      href:Hyperlink Refrence
+
+- <img> : used to add image to your page
+  -----
+  ex. <img src="relative link|absolute link" alt="random text" height="100px" width="100px">
+      src:source
+      alt:that is to be displayed in place of an element that cannot be rendered.
+      height and width:used to size of image
+
+- <b></b> & <strong></strong> : Bold text
+  -------   -----------------
+
+- <i></i> & <em></em> : Italic text/Emphasize Tag
+  -------   ---------
+
+- <cite></cite> : The <cite> tag defines the title of a creative work.
+  -------------   e.g. a book, a poem, a song, a movie, a painting etc.
+                  The text in the <cite> element usually renders in italic.
+                * A person's name is not the title of a work.
+
+- <u></u> & <ins></ins> : Underline text/Insight Tag
+  -------   -----------
+
+- <big></big> : big text
+  -----------
+
+- <small></small> : small text
+  ---------------
+
+- <mark></mark> : Used to Highlighting the Sentences and Words
+  -------------
+
+- <del></del> & <strike><strike>(deprecated tag) : Delete Tag/Used to delete the Content
+  -----------   -------------------------------- 
+
+- <hr> : used to display a horizontal ruler, used to separate content
+  ----
+
+- <sub></sub> : (Subscript) appears half a character below the normal line and is sometimes rendered in a smaller
+  -----------   font.
+  ex. chemical formulas - H2O
+
+- <sup></sup> : (Superscript) appears half a character above the normal line and is sometimes rendered in a smaller
+  -----------   font.
+  ex. maths formulas (square_root)
+
+- <pre></pre> : used to display text as it is (without ignoring spaces & next line)
+  -----------
+
+- <abbr></abbr> : Abbreviation Tag/Use the global title attribute to show the description for the abbreviation/acronym 
+  -------------   when you mouse over the element.
+
+- <blockquote cite="URL"></blockquote> : specifies a section that is quoted from another source.
+  ------------------------------------   
+                                         cite:URL of that quoted section.
+
+- <q></q> : Quotation Tag
+  -------   The <q> tag defines a short quotation.Browsers normally insert quotation marks around the quotation.
+            If we want to quote some words and sentences from the passage than we have to use Quotation tag.
+
+- <address></address> : The <address> tag defines the contact information for the owner of a document or an article.
+  -------------------
+
+- <kbd></kbd> & <keyboard></keyboard> : The <kbd> tag is used to define keyboard input.
+  -----------------------------------   The content inside is displayed in the browser's default monospace font.
+[Monospace Font : Each letter takes the same amount of space]
+
+- <tt></tt>(deprecated tag) : used for teletype text 
+  ------------------------- 
+
+- <code></code> : The <code> tag is used to define a piece of computer code.
+  -------------   The content inside is displayed in the browser's default monospace font. 
+
+- <marquee></marquee> : The <marquee> tag in HTML is used to create scrolling text or image in a webpages. 
+  -------------------   It scrolls either from horizontally left to right or right to left, 
+                        or vertically top to bottom or bottom to top.
+
+ATTRIBUTES :- 
+
+types of tags
+types of path
+types of elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   

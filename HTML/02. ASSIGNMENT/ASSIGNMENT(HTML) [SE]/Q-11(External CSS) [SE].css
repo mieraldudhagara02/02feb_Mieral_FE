@@ -1,0 +1,17 @@
+a:link{
+    color: darkgoldenrod;
+}
+
+a:visited{
+    color: rgb(90, 4, 4);
+}
+
+a:hover{
+    background-color: saddlebrown;
+    color: white;
+    padding: 2px;
+}
+
+a:active{
+    color: plum;
+}

@@ -1,0 +1,52 @@
+Q-10. How can we club Two or More rows or columns into a single row or column in HTML Table?
+      --------------------------------------------------------------------------------------
+
+-> To merge two or more Column cells, use the colspan attribute. 
+-> To merge two or more Row cells, use the rowspan attribute. 
+
+
+COLSPAN ATTRIBUTES:
+------------------
+
+- If we wanted to combine the first two cells in the first column, we could use the colspan="2" 
+  attribute in the first <td> tag.
+ 
+ [The number represents how many cells to use (merge) for the <td> tag.]
+
+SYNTAX:
+------
+<table>
+ <tr>
+  <td colspan="2"> ... </td>
+  <td> ... </td>
+ </tr>
+<tr>
+  <td> ... </td>
+  <td> ... </td>
+  <td> ... </td>
+ </tr>
+</table>
+
+
+ROWSPAN ATTRIBUTES:
+------------------
+ 
+- If we wanted to combine the first two cells in the first column into one cell,we could use the 
+  rowspan="2" attribute in the first <td> tag.
+ 
+ [The number represents how many cells to use for the <td> tag.]
+
+SYNTAX:
+------
+<table>
+ <tr>
+  <td rowspan="2"> ... </td>
+  <td> ... </td>
+  <td> ... </td>
+ </tr>
+<tr>
+  <td> ... </td>
+  <td> ... </td>
+ </tr>
+</table>
+

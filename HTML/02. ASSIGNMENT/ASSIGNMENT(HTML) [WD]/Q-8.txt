@@ -1,0 +1,34 @@
+Q-8. What are the various formatting tags in HTML?
+     ---------------------------------------------
+
+->  HTML contains several elements for defining text with a special meaning.
+
+HTML FORMATTING TAGS:
+--------------------
+- Formatting elements were designed to display special types of text.
+
+<b> - Bold text : The HTML <b> Tag defines bold text
+
+<strong> - Important text : The HTML <strong> Tag defines bold text
+
+<i> - Italic text : The content inside the <i> Tag is displayed in Italic Text
+
+<em> - Emphasized text : The content inside the <i> Tag is displayed in Italic Text
+
+<mark> - Marked text : The HTML <mark> Tag defines text that should be highlighted
+ 
+<small> - Smaller text : The HTML <small> Tag defines smaller text
+
+<del> - Deleted text : The HTML <del> Tag defines text that has been deleted from a document. 
+                      - Browsers will usually strike a line through deleted text 
+<sub> - Subscript text : The HTML <sub> element defines subscript text. 
+                        - Subscript text appears half a character below the normal line and is sometimes 
+                          rendered in a smaller font. 
+                        - Subscript text can be used for chemical formulas.
+
+<sup> - Superscript text : The HTML <sup> element defines superscript text. 
+                          - Superscript text appears half a character above the normal line, 
+                            and is sometimes rendered in a smaller font. 
+                          - Superscript text can be used for footnotes.
+
+-> Thus, these all are the Formatting Tags.

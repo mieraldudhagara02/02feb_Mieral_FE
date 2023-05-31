@@ -1,0 +1,31 @@
+Q-4. What are HTML Entities?
+     -----------------------
+
+-> An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a 
+   semicolon (;).
+-> Entities are frequently used to display reserved characters 
+   [Which would otherwise  be interprited as HTML code]
+   and invisible characters [like non-breaking spaces]
+
+-> Many characters have memorable entities.
+   i.e.
+   The entity for Copyright symbol is &copy;
+                                      ------
+
+-> Less memorable characters,
+   i.e.
+   &#8212; is for reference chart.
+   -------
+
+-> Some special characters are reserved for use in HTML, meaning that your browser will analyze them
+   as HTML code.
+
+   For example:
+   if you use the less-than (<) sign, the browser interprets any text that follows as a tag.
+-> To dispaly these characters as text, replace them with their corresponding character entities.
+   i.e.
+   & : &emp;
+   < : &lt;
+   > : &gt;
+   " : &quot;
+   
