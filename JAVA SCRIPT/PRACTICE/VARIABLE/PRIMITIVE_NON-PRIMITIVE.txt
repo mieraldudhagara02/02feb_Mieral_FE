@@ -1,0 +1,31 @@
+DATA TYPES:
+    1. Primitive Datatype
+    2. Non-Primitive Datatype
+
+
+1. PRIMITIVE DATATYPE:
+
+- There are the "SEVEN" Primitive Datatype in JavaScript.
+    N : Number
+    N : Null
+    B : Boolean
+    B : BigInt
+    S : String
+    S : Symbol
+    U : Undefined
+
+
+2. NON-PRIMITIVE DATATYPE:
+
+- "Object" is a Non-Primitive Datatype in JavaScript.
+
+An Object in JavaScript can be created as follow:
+        const item = {
+            name : "LED Bulb"
+            price : "150"
+        }
+    
+    here, name and price : key
+          LED Bulb, 150  : value
+
+key + value = object

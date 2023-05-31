@@ -1,0 +1,45 @@
+'JavaScript' can be added to your HTML file in two ways:
+--------------------------------------------------------
+
+        1. INTERNAL JAVASCRIPT
+        2. EXTERNAL JAVASCRIPT
+
+
+1. INTERNAL JAVASCRIPT:
+   --------------------
+
+-> We can add JavaScript direct to our HTML file.
+
+-> We have to write code in <script> tag, for direct embed of JavaScript.
+
+-> In INTERNAL JAVASCRIPT, there is two way to embed JS:
+        - Inside <head> Tag
+        - Inside <body> Tag
+
+    - Inside <head> Tag:
+
+        <head>
+            <script src="">
+                // javascript code
+            </script>
+        </head>
+
+    - Inside <body> Tag:
+
+        <body>
+            //body of the html
+
+            <script src="">
+                // javascript code
+            </script>
+        </body>
+
+
+2. EXTERNAL JAVASCRIPT:
+   --------------------
+
+-> We can write JavaScript code in another files.
+
+-> Then link this file inside the <head> tag of the HTML file.
+
+        <script src="file_name.js"></script>

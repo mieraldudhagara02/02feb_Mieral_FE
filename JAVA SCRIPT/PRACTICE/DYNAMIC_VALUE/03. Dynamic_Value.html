@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Value </title>
+    <style>
+        #Ans{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="fv" id="fv" placeholder="Enter First Value"><br><br>
+    <input type="text" name="sv" id="sv" placeholder="Enter Second Value"><br><br>
+    <!-- ADDITION : <h3 id="Ans"></h3><br><br> -->
+    <!-- <button id="btn" onclick="addition()">CLICK HERE</button> -->
+
+    <!-- MULTIPLICATION : <h3 id="Ans"></h3><br><br>
+    <button id="btn" onclick="multiplication()">CLICK HERE</button> -->
+
+    <!-- DIVISION : <h3 id="Ans"></h3><br><br>
+    <button id="btn" onclick="division()">CLICK HERE</button> -->
+
+    <!-- MODULO : <h3 id="Ans"></h3><br><br>
+    <button id="btn" onclick="modulo()">CLICK HERE</button> -->
+
+    <!-- INCREMENT : <h3 id="Ans"></h3><br><br>
+    <button id="btn" onclick="increment()">CLICK HERE</button> -->
+
+    DECREMENT : <h3 id="Ans"></h3><br><br>
+    <button id="btn" onclick="decrement()">CLICK HERE</button>
+
+    <script>
+        
+        var firstv = document.getElementById("fv").value;
+        var secondv = document.getElementById("sv").value;
+
+        
+        // function addition(){
+        //     var total = parseInt(firstv) + parseInt(secondv);
+        //     document.getElementById("Ans").innerHTML = total;
+        // }
+
+
+        // function multiplication(){
+        //     var total = parseInt(firstv) * parseInt(secondv);
+        //     document.getElementById("Ans").innerHTML = total;
+        // }
+
+        // function division(){
+        //      var total = parseInt(firstv) / parseInt(secondv);
+        //      document.getElementById("Ans").innerHTML = total;
+        // }
+
+        // function modulo(){
+        //      var total = parseInt(firstv) % parseInt(secondv);
+        //      document.getElementById("Ans").innerHTML = total;
+        // }
+
+        // function increment(){
+        //     ++firstv;
+        //      var total = parseInt(firstv);
+        //      document.getElementById("Ans").innerHTML = total;
+        // }
+
+        function decrement(){
+            --secondv;
+             var total = parseInt(secondv);
+             document.getElementById("Ans").innerHTML = total;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Else-If Image </title>
+</head>
+<body>
+    <img src="https://th.bing.com/th/id/R.cd56425ab589c4027376d544bd32a82f?rik=O5tMlkX61JaaMg&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fDaffy-Duck-Wallpapers.jpg&ehk=%2bIXY%2bnJreKAsyhU36eOJdv%2bFEF2UJmVVXddKsWMt4ZA%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+    <button>CHANGE</button>
+
+    <script>
+        const img = document.querySelector('img');
+        const btn = document.querySelector('button');
+
+        btn.addEventListener('click', () => {
+            if(img.src == "https://th.bing.com/th/id/R.cd56425ab589c4027376d544bd32a82f?rik=O5tMlkX61JaaMg&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fDaffy-Duck-Wallpapers.jpg&ehk=%2bIXY%2bnJreKAsyhU36eOJdv%2bFEF2UJmVVXddKsWMt4ZA%3d&risl=&pid=ImgRaw&r=0"){
+                img.src = "https://wallpaperaccess.com/full/1391751.jpg";
+            }
+            else if(img.src == "https://wallpaperaccess.com/full/1391751.jpg"){
+                img.src = "https://townsquare.media/site/919/files/2020/04/DaffyDuck-e1587134594131.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89";
+            }
+            else if(img.src == "https://townsquare.media/site/919/files/2020/04/DaffyDuck-e1587134594131.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89"){
+                img.src = "https://wallpaperaccess.com/full/1391751.jpg";
+            }
+            else{
+                img.src = "https://th.bing.com/th/id/R.cd56425ab589c4027376d544bd32a82f?rik=O5tMlkX61JaaMg&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fDaffy-Duck-Wallpapers.jpg&ehk=%2bIXY%2bnJreKAsyhU36eOJdv%2bFEF2UJmVVXddKsWMt4ZA%3d&risl=&pid=ImgRaw&r=0"
+            }
+        })
+
+        img.style.height = "500px";
+        img.style.width = "700px";
+    </script>
+</body>
+</html>

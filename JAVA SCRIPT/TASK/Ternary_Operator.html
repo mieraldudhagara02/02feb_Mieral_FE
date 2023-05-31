@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ternary Operator </title>
+</head>
+<body>
+    <script>
+        let a = 10;
+        let b = 20;
+        let c = 30;
+
+        let large = (a > b ?  (b > c ? b : c) : (c > a ? c : a));
+        /* 
+            If 'A' is Grater than 'B', Then execute this Expression..
+            (b > c ? b : c)
+
+            If 'A' is Not Grater than 'B', Then execute this Expression..
+            (c > a ? c : a)
+        */
+        console.log("Grater Number is:" + large);  
+    </script>
+</body>
+</html>

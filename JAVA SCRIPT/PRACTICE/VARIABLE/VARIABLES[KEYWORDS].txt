@@ -1,0 +1,53 @@
+VARIABLES:
+        A variable is a container that stores a value.
+
+- This is very similar to the containers used to store rice, oats ane all. [EXAMPLE]
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+=> In JavaScript, there are three different variable keywords:
+        1. var
+        2. let
+        3. const
+
+-> Each variable keyword acts differently, so it's important to know how they will affect your code.
+
+-> var is globally scoped while let & const are block scoped.
+
+-> The value of a JavaScript variable can be changed during the execution of a program.
+
+
+
+1. var:
+- The var keyword is used to declare variables since JavaScript was created.
+- Variables defined with 'var'
+        * must be declared before use.
+            keyword variable_name = 'value';
+
+            var a = 7;
+                here,   var : keyword
+                        a   : identifier
+                        =   : assignment operator
+                        7   : literal
+ 
+        * can be redeclared.
+            keyword variable_name = 'value';
+
+        * can be change the value.
+            variable_name = 'value';
+
+2. let:
+- Variables defined with 'let'
+        * must be declared before use.
+        * can not be redeclared.
+        * can be change the value.
+
+3. const:
+- The const keyword is used to declare constants in JavaScript. 
+- const must be initialized during declaration unlike let and var.
+- Once a constant is defined, it cannot be reassigned
+- Variables defined with 'var'
+        * must be declared before use.
+        * can not be redeclared.
+        * can not be change the value.

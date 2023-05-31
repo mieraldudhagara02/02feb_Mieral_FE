@@ -1,0 +1,31 @@
+If you want to create a Website / WebPages, then you have to need...
+    1. HTML [ body (skeleton) ]
+    2. CSS [ Adds beauty ]
+    3. JAVA SCRIPT [ Brain ]
+
+-> Javascript is a scripting language.
+   [Scripting language is light weight programming language]
+
+-> Javascript is 'Plateform Independent.'
+   [Which means it works for all major browsers]
+
+-> Javascript is 'Client side', 'Object Oriented', 'High Level' Scripting Language.
+
+-> Can not runs stand alone.
+   [Javascript work with HTML and CSS]
+
+-> JavaScript follows the syntax and structure of the 'C programming language'.
+   [So, it's a Structured Programming Language]
+
+-> JavaScript is a case-sensitive language.
+
+-> You can save the javascript file using .js extension.
+
+
+WAY OF EXECUTING JAVA SCRIPT:
+-----------------------------
+
+- By using it inside <script> tag of an HTML document.
+- You can execute JavaScript inside the browser.
+      You can open the JavaScript console and start writing JavaScript there. (rightclick->inspect->console)
+- By installing node.js [JavaScript runtime]

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Logical Operator </title>
+    <!-- 2 + 2 = 4
+         Here, 2 and 2 is Operands 
+               + is Operator
+               4 is Result -->
+</head>
+<body>
+    <script>
+        let a = 10;
+        let b = 20;
+
+        // Logical And Operator
+
+        // True && True = True
+        console.log(a==10 && b==20);
+        // True && False = False
+        console.log(a==10 && b==10);
+        // False && False = False
+        console.log(a==20 && b==10);
+
+
+        // Logical Or Operator
+
+        // True || True = True
+        if(a==10 || b==20)
+        {
+            console.log("True");
+        }
+        else{
+            console.log("False");
+        }
+        
+        // True || False = True
+        if(a<10 || b>10)
+        {
+            console.log("True");
+        }
+        else{
+            console.log("False");
+        }
+
+        // False || False = False
+        if(a>10 || b<10)
+        {
+            console.log("True");
+        }
+        else{
+            console.log("False");
+        }
+
+
+        // Logical Not Operator
+
+        // True = False
+        if(a!==10)
+        {
+            console.log("False");
+        }
+        else{
+            console.log("True");
+        }
+
+        // False = True
+        if(a!==20)
+        {
+            console.log("True");
+        }
+        else{
+            console.log("False");
+        }
+    </script>
+</body>
+</html>

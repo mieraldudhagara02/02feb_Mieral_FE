@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  <img src="https://tse3.mm.bing.net/th?id=OIP.86YISp3CK1HLbJOUCR1PKQHaFj&pid=Api&P=0&h=180" alt="">
+  <button>CHANGE</button>
+
+  <script>
+    const img = document.querySelector('img');
+    const btn = document.querySelector('button');
+    btn.addEventListener('click', () => {
+      if (img.src == "https://tse3.mm.bing.net/th?id=OIP.86YISp3CK1HLbJOUCR1PKQHaFj&pid=Api&P=0&h=180" )
+      // img-1
+      {
+        img.src = "https://th.bing.com/th/id/OIP.U9Eu84X3roVUlg-h4ryAXgHaFj?pid=ImgDet&w=205&h=153&c=7&dpr=1.3";
+        // img-2
+      }
+      else if (img.src == "https://th.bing.com/th/id/OIP.U9Eu84X3roVUlg-h4ryAXgHaFj?pid=ImgDet&w=205&h=153&c=7&dpr=1.3")
+      // imgg-2
+      {
+        img.scr = "https://i.pinimg.com/736x/99/5f/fe/995ffe375f0c4129e515212b1ffbf756.jpg";
+        // img-3
+      }
+      else {
+        img.src = "https://th.bing.com/th/id/OIP.TfDJzxP4qAkAJ1XVIJcNfgHaHa?w=205&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+        // img-4
+      }
+    })
+
+
+    img.style.height = "300px";
+    img.style.width = "300px";
+    </script>
+  
+</body>
+</html>

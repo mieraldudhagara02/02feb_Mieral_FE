@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Value </title>
+    <style>
+        .value1{
+            margin-bottom: 5px;
+        }
+        .value2{
+            margin-bottom: 5px;
+        }
+        .answer{
+            margin-bottom: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="value1">
+        <input type="text" name="value1" id="v1" placeholder="Enter your 1st Value..">
+    </div>
+    <div class="value2">
+        <input type="text" name="value2" id="v2" placeholder="Enter your 2nd Value..">
+    </div>
+    <div class="answer">
+        <input type="text" name="answer" id="ans" placeholder="Your Answer..">
+    </div>
+    <div class="add">
+        <button onclick="addition()">ADDITION</button>
+    </div>
+
+    <script>
+        let value1 = parseInt(document.getElementById('v1').value);
+        let value2 = parseInt(document.getElementById('v2').value);
+        let answer = document.getElementById('ans');
+
+        function addition(){
+            ans.value = value1 + value2;
+        }
+    </script>
+</body>
+</html>

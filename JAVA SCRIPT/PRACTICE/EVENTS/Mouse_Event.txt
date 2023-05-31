@@ -1,0 +1,15 @@
+-> There are three types of EVENT:
+        1. MOUSE EVENET
+        2. KEYBOARD EVENT
+        3. WINDOWS EVENT
+
+1. MOUSE EVENT
+
+- There are SEVEN Types of MOUSE EVENT:
+    * Click         :   onclick=" "
+    * Double Click  :   ondbclick=" "
+    * Right Click   :   oncontextmenu=" "
+    * Mouse Hover   :   onmouseover=" "
+    * Mouse Out     :   onmouseout=" "
+    * Mouse Down    :   onmousedown=" " (During the click)
+    * Mouse Up      :   onmouseup=" " (After click)

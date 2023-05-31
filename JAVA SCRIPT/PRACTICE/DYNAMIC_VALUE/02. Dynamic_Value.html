@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Value </title>
+    <style>
+        #fv{
+            margin-left: 25px;
+        }
+        #sv{
+            margin-left: 7px;
+        }
+        #Ans{
+            display: inline;
+        }
+        #btn{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <label for="fv">Enter First Value:</label>
+    <input type="text" name="fv" id="fv"><br><br>
+    <label for="sv">Enter Second Value:</label>
+    <input type="text" name="sv" id="sv"><br><br>
+    ANSWER : <h2 id="Ans"></h2><br><br>
+    <button id="btn" onclick="addition()">ADDITION</button>
+
+    <script>
+        function addition(){
+            let firstv = document.getElementById("fv").value;
+            let secondv = document.getElementById("sv").value;
+        
+            let add = parseInt(firstv) + parseInt(secondv);
+            document.getElementById("Ans").innerHTML=add;
+        }
+    </script>
+</body>
+</html>
