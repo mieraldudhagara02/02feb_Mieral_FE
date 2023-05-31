@@ -1,0 +1,14 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: #00263c;
+    margin: 40px auto;
+    padding: 5px;
+}
+div.rotate:hover{
+    border-radius: 200px;
+    background-color: transparent;
+    border: 5px solid #00263c;
+    transform: rotate(120deg);
+    transition: 2s;
+}

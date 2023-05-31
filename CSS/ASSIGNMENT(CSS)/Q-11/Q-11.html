@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-11.css">
+    <title> Q-11 </title>
+</head>
+<body>
+    <!-- QUESTION-11 START -->
+
+    <!-- HEADER START -->
+    <header><br>
+        <hr>
+        <span id="textgradient">QUESTION-11</span>
+        <hr><br>
+    </header>
+    <!-- HEADER OVER -->
+
+    <div class="Q-11">
+        <h2 style="border: 0.5px solid black;"><u>How to center block elements using CSS1?</u></h2><br><br><br>
+        - &nbsp; The elements taking full space is known as 'Block Element'.<br><br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <p class="p">THIS IS PARAGRAPH TAG.</p>
+        <p class="P1">THIS IS ANOTHER PARAGRAPH TAG.</p>
+        - &nbsp; Thus, Block elements are force to another element to start on a new line. However, we don't break it.<br>
+        - &nbsp; For centering bloack element, we need to use margin property.<br><br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <div class="center">BLOCK ELEMENT</div>
+        <b>CSS Code:</b><br>
+        .center{<br>
+        &nbsp; &nbsp; height: 300px;<br>
+        &nbsp; &nbsp; width: 300px;<br>
+        &nbsp; &nbsp; margin: auto;<br>
+        &nbsp; &nbsp; background-color: rgb(0, 111, 106);<br>
+        &nbsp; &nbsp; color: white;<br>
+        &nbsp; &nbsp; border: solid 2px black;<br>
+        &nbsp; &nbsp; border-radius: 10px;<br>
+        &nbsp; &nbsp; text-align: center;<br>
+        &nbsp; &nbsp; line-height: 18;<br>
+        }<br>
+        - &nbsp; By using margin property, we can controlling them horizontally and vertically.<br>
+        - &nbsp; We need to specify the margin value from left and right such that it looks centered.<br> 
+        - &nbsp; We can use 'auto' value, that is automatically sets the block element in center.<br><br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <div class="block">
+            <div class="wm">WITHOUT MARGIN</div>
+            <div class="ma">MARGIN AUTO</div>
+            <div class="mt">MARGIN TOP</div>
+            <div class="mr">MARGIN RIGHT</div>
+            <div class="mb">MARGIN BOTTOM</div>
+            <div class="ml">MARGIN LEFT</div>
+        </div><br>
+        - &nbsp; 'Margin' is shorthand property.<br>
+        &nbsp;<b>HOW!!!</b><br>
+        - &nbsp; When we use 'margin:10px', all four margins are 10px.<br><br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <div class="m">
+        <div class="margin">MARGIN</div>
+        </div>
+        <b>CSS Code:</b><br>
+        .margin{<br>
+        &nbsp; &nbsp; width: 50%;<br>
+        &nbsp; &nbsp; margin: 50px;<br>
+        &nbsp; &nbsp; background-color: white;<br>
+        &nbsp; &nbsp; color: rgb(0, 111, 106);<br>
+        &nbsp; &nbsp; padding: 10px;<br>
+        &nbsp; &nbsp; border: 2px solid black;<br>
+        &nbsp; &nbsp; text-align: center;<br> 
+        }<br><br>
+        - &nbsp; top and bottom, left and right margins are 50px.<br>
+        - &nbsp; Thus, we have to use margin property for centering block element.<br><br>
+        <div style="border: 2px solid black; padding: 5px;"><b>NOTE:</b> If we want to centering 'block element' without using margin property, than we have to use 'display: flex;' and then we can centering block element through <span style="color: red;">'justify-content'[Horizontally]</span> and <span style="color: red;">'align-item'[Vertically]</span>.</div>
+    </div> 
+
+    <!-- QUESTION-11 OVER-->
+</body>
+</html>

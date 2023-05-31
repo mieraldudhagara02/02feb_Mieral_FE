@@ -1,0 +1,84 @@
+/* QUESTION-9 START */
+
+/* HEADER START */
+header{
+    background: linear-gradient(rgb(0, 71, 67),white);
+    background-clip: text;
+    color: transparent;
+}
+#textgradient{
+    font-size: 50px;
+    display: inline;
+    padding: 600px;
+}
+/* HEADER OVER */
+
+hr{
+    border-top: solid black;
+}
+h2{
+    margin: 10px 0px;
+    padding: 3px 5px;;
+    display: inline;
+}
+h2:hover{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    outline: 2px solid rgb(2, 77, 73);
+    outline-offset: 2px;
+    transition: 0.5s;
+}
+b.internal{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    padding: 3px 5px;
+}
+
+.backgroundattachment{
+    height: 1240px;
+    width: auto;
+    border: 2px solid rgb(0, 111, 106);
+}
+.r{
+    float: left;
+    margin: 30px;
+    font-size: 25px;
+}
+.scroll{
+    height: 300px;
+    width: 450px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    background-position: center;
+    background-attachment: scroll;
+}
+.fix{
+    height: 300px;
+    width: 450px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-attachment: fixed;
+}
+.local{
+    height: 300px;
+    width: 450px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center;
+    background-attachment: local;
+}
+/* QUESTION-9 OVER */

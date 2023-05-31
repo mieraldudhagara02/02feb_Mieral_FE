@@ -1,0 +1,140 @@
+/* QUESTION-11 START */
+
+/* HEADER START */
+header{
+    background: linear-gradient(rgb(0, 71, 67),white);
+    background-clip: text;
+    color: transparent;
+}
+#textgradient{
+    font-size: 50px;
+    display: inline;
+    padding: 600px;
+}
+/* HEADER OVER */
+
+hr{
+    border-top: solid black;
+}
+h2{
+    margin: 10px 0px;
+    padding: 3px 5px;;
+    display: inline;
+}
+h2:hover{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    outline: 2px solid rgb(2, 77, 73);
+    outline-offset: 2px;
+    transition: 0.5s;
+}
+b.internal{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    padding: 3px 5px;
+}
+
+.p{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    width: auto;
+    padding: 5px;
+    outline-offset: 3px;
+    outline: double 3px black;
+}
+.P1{
+    background-color: rgb(0, 111, 106);
+    width: auto;
+    color: white;
+    padding: 5px;
+    outline-offset: 3px;
+    outline: double 3px black;
+}
+.center{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(0, 111, 106);
+    color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 18;
+}
+.block{
+    height: 349.5px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(0, 111, 106);
+    border: solid 2px black;
+}
+.wm{
+    width: 50%;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.ma{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.mt{
+    width: 50%;
+    margin-top: 50px;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.mr{
+    width: 50%;
+    margin-right: 50px;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.mb{
+    width: 50%;
+    margin-bottom: 50px;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.ml{
+    width: 50%;
+    margin-left: 50px;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.m{
+    height: 140px;
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgb(0, 111, 106);
+}
+.margin{
+    width: 50%;
+    margin: 50px;
+    background-color: white;
+    color: rgb(0, 111, 106);
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center; 
+}
+/* QUESTION-11 OVER */

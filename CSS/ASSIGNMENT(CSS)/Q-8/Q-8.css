@@ -1,0 +1,154 @@
+/* QUESTION-8 START */
+
+/* HEADER START */
+header{
+    background: linear-gradient(rgb(0, 71, 67),white);
+    background-clip: text;
+    color: transparent;
+}
+#textgradient{
+    font-size: 50px;
+    display: inline;
+    padding: 600px;
+}
+/* HEADER OVER */
+
+hr{
+    border-top: solid black;
+}
+h2{
+    margin: 10px 0px;
+    padding: 3px 5px;;
+    display: inline;
+}
+h2:hover{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    outline: 2px solid rgb(2, 77, 73);
+    outline-offset: 2px;
+    transition: 0.5s;
+}
+b.internal{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    padding: 3px 5px;
+}
+
+.backgroundposition{
+    height: 3530px;
+    width: auto;
+    border: 2px solid rgb(0, 111, 106);
+}
+.r{
+    float: left;
+    margin: 30px;
+    font-size: 25px;
+}
+#top-left{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    background-position: top left;
+}
+#center-left{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center left;
+}
+#bottom-left{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: bottom left;
+}
+#top-center{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center top;
+}
+#center-center{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center;
+}
+#bottom-center{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center bottom;
+}
+#top-right{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: top right;
+}
+#center-right{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: center right;
+}
+#bottom-right{
+    height: 300px;
+    width: 350px;
+    background-image: url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 111, 106);
+    margin: 10px;
+    float: left;
+    clear: left;
+    background-position: bottom right;
+}
+/* QUESTION-8 OVER */

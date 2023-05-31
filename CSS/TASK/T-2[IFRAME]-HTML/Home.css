@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+div{
+    height: 655px;
+    width: 84.50%;
+    background-color: rgb(143, 248, 251);
+}
+span{
+    color: white;
+    background-color: rgba(0, 47, 70, 0.9);
+    font-family: 'Changa One', cursive;
+    font-size: 35px;
+    margin: 50px;
+    padding: 10px;
+}
+pre{
+    background-color: transparent;
+    color: rgba(0, 47, 70, 0.5);
+    font-family: 'Changa One', cursive;
+    font-size: 45px;
+    margin: 40px;
+    word-spacing: 30px;
+}
+p{
+    margin: 0px 40px;
+    font-family: 'Changa One', cursive;
+    font-family: 'Crimson Text', serif;
+    word-spacing: 20px;
+    font-size: 30px;
+}

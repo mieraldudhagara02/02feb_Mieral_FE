@@ -1,0 +1,40 @@
+/* QUESTION-16 START */
+
+/* HEADER START */
+header{
+    background: linear-gradient(rgb(0, 71, 67),white);
+    background-clip: text;
+    color: transparent;
+}
+#textgradient{
+    font-size: 50px;
+    display: inline;
+    padding: 600px;
+}
+/* HEADER OVER */
+
+hr{
+    border-top: solid black;
+}
+h2{
+    margin: 10px 0px;
+    padding: 3px 5px;;
+    display: inline;
+}
+h2:hover{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    outline: 2px solid rgb(2, 77, 73);
+    outline-offset: 2px;
+    transition: 0.5s;
+}
+b.internal{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    padding: 3px 5px;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+}
+/* QUESTION-16 OVER */

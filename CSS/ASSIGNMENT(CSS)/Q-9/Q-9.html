@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-9.css">
+    <title> Q-9 </title>
+</head>
+<body>
+    <!-- QUESTION-9 START -->
+
+    <!-- HEADER START -->
+    <header><br>
+        <hr>
+        <span id="textgradient">QUESTION-9</span>
+        <hr><br>
+    </header>
+    <!-- HEADER OVER -->
+
+    <div class="Q-9">
+        <h2 style="border: 0.5px solid black;"><u>Which property controls the image scroll in the background?</u></h2><br><br><br>
+        - &nbsp; If you don't want to scroll your background image, then you have to use the background-attachment
+        property.<br>
+        - &nbsp; Or you want your background image is fixed, then also you need to use the background-attachment
+        property.<br>
+        - &nbsp; The background-attachment property sets whether a backgroung image scrolls with the page or is
+        fixed.<br><br>
+        <b class="internal">SYNTAX:</b><br><br>
+        <div style="color: red; border: 2px solid black; border-radius: 10px; padding: 10px; width: 200px;">body{<br>
+            &nbsp; &nbsp;background-attachment: value;<br>
+            }</div><br><br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <div class="backgroundattachment">
+            <div class="scroll"></div>
+            <span class="r">1. <u>SCROLL</u><br><br>
+            When we apply <span style="color: red;">'scroll'</span> value in the Background-attachment property, <br>
+            the background image will scroll with the page.<br>
+            This is default.<br>
+            <span style="font-size: 15px; float: left;  margin: 10px;">.scroll{<br>
+                &nbsp; &nbsp; height: 300px;<br>
+                &nbsp; &nbsp; width: 450px;<br>
+                &nbsp; &nbsp; background-image:
+                url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);<br>
+                &nbsp; &nbsp; background-size: 60%;<br>
+                &nbsp; &nbsp; background-repeat: no-repeat;<br>
+                &nbsp; &nbsp; background-color: rgb(0, 111, 106);<br>
+                &nbsp; &nbsp; margin: 10px;<br>
+                &nbsp; &nbsp; float: left;<br>
+                &nbsp; &nbsp; background-position: center;<br>
+                &nbsp; &nbsp; background-attachment: scroll;<br>
+                }</span>
+            </span>
+            <div class="fix"></div>
+            <span class="r">2. <u>FIXED</u><br><br>
+            When we apply <span style="color: red;">'fixed'</span> value in the Background-attachment property, <br>
+            the background image will not scroll with the page.<br>
+            <span style="font-size: 15px; float: left;  margin: 10px;">.fix{<br>
+                &nbsp; &nbsp; height: 300px;<br>
+                &nbsp; &nbsp; width: 450px;<br>
+                &nbsp; &nbsp; background-image:
+                url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);<br>
+                &nbsp; &nbsp; background-size: 60%;<br>
+                &nbsp; &nbsp; background-repeat: no-repeat;<br>
+                &nbsp; &nbsp; background-color: rgb(0, 111, 106);<br>
+                &nbsp; &nbsp; margin: 10px;<br>
+                &nbsp; &nbsp; float: left;<br>
+                &nbsp; &nbsp; background-attachment: fixed;<br>
+                }</span>
+            </span>
+            <div class="local"></div>
+            <span class="r">3. <u>LOCAL</u><br><br>
+            When we apply <span style="color: red;">'local'</span> value in the Background-attachment property, <br>
+            the background image will scroll with the element's contents.<br>
+            <span style="font-size: 15px; float: left;  margin: 10px;">.local{<br>
+                &nbsp; &nbsp; height: 300px;<br>
+                &nbsp; &nbsp; width: 450px;<br>
+                &nbsp; &nbsp; background-image:
+                url(https://i.pinimg.com/originals/c2/04/89/c20489420ccb827dff570047e568fbad.jpg);<br>
+                &nbsp; &nbsp; background-size: 60%;<br>
+                &nbsp; &nbsp; background-repeat: no-repeat;<br>
+                &nbsp; &nbsp; background-color: rgb(0, 111, 106);<br>
+                &nbsp; &nbsp; margin: 10px;<br>
+                &nbsp; &nbsp; float: left;<br>
+                &nbsp; &nbsp; background-position: center;<br>
+                &nbsp; &nbsp; background-attachment: local;<br>
+                }</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- QUESTION-9 OVER -->
+</body>
+</html>

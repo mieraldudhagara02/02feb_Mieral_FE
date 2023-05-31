@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER START */
+header{
+    height: 70px;
+    width: auto;
+    background-color: transparent;
+    position: fixed;
+    position: relative;
+    top: 0;
+}
+.logo img{
+    height: 70px;
+    width: 15%;
+    padding: 0px 80px 0px 0px;
+    float: left;
+    background-color: transparent;
+}
+.menu ul{
+    height: 70px;
+    padding: 0px 0px 0px 550px;
+    background-color: transparent;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    line-height: 4;
+    color: #236e4a;
+}
+button{
+    border: 1px solid #236e4a; 
+    border-radius: 4px; 
+    background-color: #236e4a; 
+    color: white;
+    padding: 5px;
+}
+
+/* HEADER OVER */
+
+/* SLIDER START */
+
+.slider img{
+    height: 575px;
+    width: 100.5%;
+    filter: brightness(45%);
+    position: relative;
+}
+
+/* SLIDER OVER */
+
+/* CONTENT START */
+
+.fix{
+    position: relative;
+    position: absolute;
+    position: fixed;
+}
+.t1{
+    position: absolute;
+    top: 80px;
+    left: 440px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t2{
+    position: absolute; 
+    top: 150px;
+    left: 530px;
+    color: #ffff00;
+    font-size: 60px;
+}
+.t3{
+    position: absolute; 
+    top: 80px;
+    left: 460px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t4{
+    position: absolute; 
+    top: 150px;
+    left: 400px;
+    color: #ffff00;
+    font-size: 60px;
+}
+.t5{
+    position: absolute; 
+    top: 80px;
+    left: 370px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t6{
+    position: absolute; 
+    top: 150px;
+    left: 490px;
+    color: #ffff00;
+    font-size: 60px;
+}
+
+/* FIX CONTENT START*/
+
+.same{
+    position: relative;
+    position: fixed;
+    top: 340px;
+    left: 490px;
+    font-size: 40px;
+    color: #fff;
+}
+.left{
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    background-color: #ffffff;
+    color: #11141a;
+    border-color: #cecbbf;
+    padding: 10px 70px;
+}
+.right{
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    position: fixed;
+    top: 400px;
+    left: 755px;
+    background-color: #ffffff;
+    color: #11141a;
+    border-color: #cecbbf;
+    padding: 10px 40px;
+}
+.same1{
+    top: 450px;
+    left: 465px;
+    font-size: 30px;
+    position: absolute;
+    position: fixed;
+    color: #fff;
+}
+.middle{
+    top: 550px;
+    left: 670px;
+    position: absolute;
+    position: fixed; 
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.middle:hover{
+    background-color: white;
+    color: black;
+}
+
+/* FIX CONTENT OVER */
+/* CONTENT OVER */
+
+/* CARD START */
+
+.container{
+    margin: 0px;
+    position: relative;
+}
+
+/*  CONTAINER-1 START */
+
+.container1{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.n{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #fe626c;
+    padding: 2px 7px;
+    color: white;
+}
+.img1{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.d{
+    top: 230px;
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    left: 75px;
+}
+.p{
+    top: 265px;
+    left: 75px;
+    position: absolute;
+    font-size: 20px;
+}
+.P{
+    top: 265px;
+    left: 150px;
+    position: absolute;
+    font-size: 20px;
+    color: gray;
+}
+.c{
+    position: absolute;
+    top: 320px;
+    font-size: 20px;
+    left: 70px;
+    color: white;
+    background-color: #2edbb8;
+    padding: 3px 5px;
+}
+.c:hover{
+    outline: 2px solid #2edbb8;
+    outline-offset: 4px;
+}
+.q{
+    position: absolute;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    padding: 5px 90.8px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-1 OVER */
+
+/* CONTAINER-2 START */
+
+.container2{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img2{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-2 OVER */
+
+/* CONTAINER-3 START */
+
+.container3{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img3{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-3 OVER */
+
+/* CONTAINER-4 START */
+
+.container4{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img4{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-4 OVER */
+
+/* CONTAINER-5 START */
+
+.container5{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    clear: left;
+    margin: 42px;
+}
+.img5{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-5 OVER */
+
+/* CONTAINER-6 START */
+
+.container6{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img6{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-6 OVER */
+
+/* CONTAINER-7 START */
+
+.container7{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img7{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-7 OVER */
+
+/* CONTAINER-8 START */
+
+.container8{
+    height: 375px;
+    width: 278px;
+    filter: drop-shadow(2px 2px 5px gray);
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 42px;
+}
+.img8{
+    position: absolute;
+    width: 278px;
+    height: 220px;
+}
+.up:hover .q{
+    opacity: 1;
+    top: 52%;
+    padding: 10px;
+    padding: 5px 90.8px;
+}
+.q:hover{
+    background-color: #2edbb8;
+    color: white;
+}
+
+/* CONTAINER-8 OVER */
+/* CARD OVER */
+
+/* HOVERABLE MENU */
+
+.left .hoverablemenu{
+    position: absolute;
+    position: fixed;
+    top: 440px;
+    left: 530px;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    display: none;
+}
+.hoverablemenu ul li{
+    list-style: none;
+}
+.left:hover .hoverablemenu{
+    display: block;
+}
+.ahm .ahm1{
+    position: absolute;
+    position: fixed;
+    left: 701px;
+    top: 440px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+    padding: 3px;
+}
+.jam .jam1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 470px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+    padding: 3px;
+}
+.raj .raj1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 480px;
+    width: 150px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+    padding: 3px;
+}
+.del .del1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 490px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+    padding: 3px;
+}

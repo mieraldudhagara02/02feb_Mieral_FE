@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+/* HEADER START */
+header{
+    height: 20px;
+    width: auto;
+    background-color: rgba(208, 221, 224, 0.5);
+}
+.left{
+    height: 20px;
+    width: 70%;
+    background-color: transparent;
+    float: left;
+    font-size: small;
+    line-height: 20px;
+}
+.left ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 40px;
+    text-align: center;
+}
+.right{
+    height: 20px;
+    width: 30%;
+    background-color: transparent;
+    float: left;
+    font-size: small;
+    line-height: 20px;
+}
+.right ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+    text-align: center;
+}
+/* HEADER END */
+
+/* NAVIGATION START */
+nav{
+    height: 30px;
+    width: auto;
+    background-color: transparent;
+}
+/* LOGO */
+#logo{
+    height: 20px;
+    width: 10%;
+    float: left;
+    background-color: transparent;
+    margin: 5px 0px;
+}
+/* MIDDLE DIV */
+#middlediv{
+    height: 30px;
+    width: 50%;
+    float: left;
+    background-color: transparent;
+}
+#middlediv ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 50px;
+    line-height: 35px;
+}
+/* RIGHT DIV */
+#rightdiv{
+    height: 30px;
+    background-color: transparent;
+    width: 40%;
+    float: left;
+}
+input{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0px 5px;
+}
+form::after{
+    content: '';
+    border: solid 1px black;
+}
+div#rightdiv ul li{
+    list-style: none;
+    display: inline;
+    line-height: 35px;
+    float: left;
+    padding: 0px 20px;
+}
+div#rightdiv img{
+    border-radius: 25px;
+}
+/* NAVIGATION END */

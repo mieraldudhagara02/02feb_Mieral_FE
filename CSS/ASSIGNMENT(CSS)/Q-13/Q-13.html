@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-13.css">
+    <title> Q-13 </title>
+    <style>
+        .internalCSS{
+            height: 300px;
+            border: dashed 2px black;
+            background-color: rgb(0, 111, 106);
+            color: white;
+            text-align: center;
+            line-height: 18;
+            margin: auto;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- QUESTION-13 START  -->
+
+    <!-- HEADER START -->
+    <header><br>
+        <hr>
+        <span id="textgradient">QUESTION-13</span>
+        <hr><br>
+    </header>
+    <!-- HEADER OVER -->
+
+    <div class="Q-13">
+        <h2 style="border: 0.5px solid black;"><u>What are the ways to integrate CSS as a web page?</u></h2><br><br><br>
+        - &nbsp; There are three ways to integrate CSS as a web page.<br>
+        <ul>
+            <li>INLINE CSS</li>
+            <li>INTERNAL CSS</li>
+            <li>EXTERNAL CSS</li>
+        </ul>
+        <b><ul style="background-color: #006863; color: white; width: 125px;"><li>INLINE CSS:</li></ul></b>
+        - &nbsp; In Inline CSS, You can add CSS styles directly to an HTML element using the "style" attribute.<br>
+        &nbsp; &nbsp; &ltp style="color: pink;"&gt<br>
+        <b><u>EXAMPLE:</u></b><br><br>
+        <div class="inline" style="height: 300px; width: 300px; border: dashed 2px black; background-color: rgb(0, 111, 106); color: white; text-align: center; line-height: 18; margin: auto;">INLINE CASCADING STYLE SHEET</div><br>
+        <b>CODE:</b><br>
+            <div class="code">
+            &lt!DOCTYPE html&gt<br>
+            &lthtml lang="en"&gt<br>
+            &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle>inline CSS&lt/title&gt<br>
+            &lt/head&gt<br>
+            &ltbody><br>
+            &ltdiv class="inline" <span style="color: red;">style="height: 300px; width: 300px; border: dashed 2px black; background-color: rgb(0, 111, 106); color: white; text-align: center; line-height: 18; margin: auto;"</span>>INLINE CASCADING STYLE SHEET&lt/div&gt<br>
+            &lt/body&gt<br>
+            &lt/html&gt<br>
+            &lt/div&gt</div><br>
+            <b><ul style="background-color: #006863; color: white; width: 150px;"><li>INTERNAL CSS:</li></ul></b>
+            - &nbsp; In Internal CSS, You can add CSS styles to the head section of an HTML document using the "style" tag.<br>
+            &nbsp; &nbsp; &ltstyle&gt&nbsp; &nbsp; p{color: pink;}&nbsp; &nbsp; &lt/style&gt<br>
+            <b><u>EXAMPLE:</u></b><br><br>
+            <div class="internalCSS">INTERNAL CASCADING STYLE SHEET</div><br>
+            <b>CODE:</b><br>
+            <div class="code">
+            &lt!DOCTYPE html&gt<br>
+            &lthtml lang="en"&gt<br>
+            &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle>inline CSS&lt/title&gt<br>
+            <span style="color: red;">&ltstyle&gt<br>
+            &nbsp;.internalCSS{<br>
+                &nbsp; &nbsp; height: 300px;<br>
+                &nbsp; &nbsp; border: dashed 2px black;<br>
+                &nbsp; &nbsp; background-color: rgb(0, 111, 106);<br>
+                &nbsp; &nbsp; color: white;<br>
+                &nbsp; &nbsp; text-align: center;<br>
+                &nbsp; &nbsp; line-height: 18;<br>
+                &nbsp; &nbsp; margin: auto;<br>
+                &nbsp; &nbsp; width: 300px;<br>
+                }<br>
+            &lt/style></span><br>
+            &lt/head&gt<br>
+            &ltbody><br>
+            &ltdiv class="internalCSS"&gtINLINE CASCADING STYLE SHEET&lt/div&gt<br>
+            &lt/body&gt<br>
+            &lt/html&gt<br>
+            &lt/div&gt</div><br>
+            <b><ul style="background-color: #006863; color: white; width: 150px;"><li>EXTERNAL CSS:</li></ul></b>
+            - &nbsp; In External CSS, You can create a separate CSS file and link it to your HTML document using the "link" tag in the head section.<br>
+            &nbsp; &nbsp; p{color: pink;}<br>
+            <b><u>EXAMPLE:</u></b><br><br>
+        <div class="External">EXTERNAL CASCADING STYLE SHEET</div><br>
+        <b>CODE:</b><br>
+        <div class="code">
+        &lt!DOCTYPE html&gt<br>
+        &lthtml lang="en"&gt<br>
+        &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle>external CSS&lt/title&gt<br>
+            <span style="color: red;">&ltlink rel="stylesheet" href="Assignment[CSS].css"&gt</span><br>
+            &lt/head&gt<br>
+            &ltbody><br>
+            &ltdiv class="External">EXTERNAL CASCADING STYLE SHEET&lt/div&gt<br>
+            &lt/body&gt<br>
+            &lt/html&gt<br>
+            &lt/div&gt</div><br>
+    </div>
+
+    <!-- QUESTION-13 OVER -->
+
+</body>
+</html>

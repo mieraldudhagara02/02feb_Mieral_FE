@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q-12.css">
+    <title> Q-12 </title>
+</head>
+<body>
+    <!-- QUESTION-12 START -->
+
+    <!-- HEADER START -->
+    <header><br>
+        <hr>
+        <span id="textgradient">QUESTION-12</span>
+        <hr><br>
+    </header>
+    <!-- HEADER OVER -->
+
+    <div class="Q-12">
+        <h2 style="border: 0.5px solid black;"><u>How to maintain the CSS specifications?</u></h2><br><br><br>
+        - &nbsp; If we want to apply more than one CSS rules to the same element, selector with the highest Specificity value will "win".<br>
+        - &nbsp; It's style declaration will be applied to that HTML element.<br><br>
+        <b><u>EXAMPLE:1</u></b><br><br>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml lang="en"&gt<br>
+        &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle&gtDocument&lt/title&gt<br>
+            &ltstyle&gt<br><br>
+            &nbsp; &nbsp; p{color: red; }<br><br>
+            &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br><br>
+        <span style="border: 2px solid black; padding: 3px;">&ltp&gtTHIS IS A PARAGRAPH TAG.&lt/p&gt</span><br><br>
+        &lt/body&gt<br>
+        &lt/html&gt<br>
+        - &nbsp; In this Example we used "p" as selector and apply red color to the element.<br><br>
+        <b><u>RESULT:</u></b><br><br>
+        <p>THIS IS A PARAGRAPH TAG.</p><br>
+        - &nbsp; Now, we added class selector and specified a green color for this class.<br>
+        - &nbsp; Let's see what happen.<br><br>
+        <b><u>EXAMPLE:2</u></b><br><br>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml lang="en"&gt<br>
+        &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle&gtDocument&lt/title&gt<br>
+            &ltstyle&gt<br><br>
+            &nbsp; &nbsp; p{color: red; }<br>
+            &nbsp; &nbsp; .p1{color: green}<br><br>
+            &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br><br>
+        <span style="border: 2px solid black; padding: 3px;">&ltp class="p1"&gtTHIS IS A PARAGRAPH TAG.&lt/p&gt</span><br><br>
+        &lt/body&gt<br>
+        &lt/html&gt<br>   
+        - &nbsp; In this Example we used ".p1" as selector and apply green color to the element.<br><br>
+        <b><u>RESULT:</u></b><br><br>
+        <p class="p1">THIS IS A PARAGRAPH TAG.</p><br>
+        - &nbsp; Now, Text is in Green color even though we have specified a red color for the element selector "p".<br>   
+        - &nbsp; Because the class selector is given higher priority than "p" selector.<br>
+        - &nbsp; Now, we added id selector and specified a blue color for this class.<br><br>
+        <b><u>EXAMPLE:3</u></b><br><br>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml lang="en"&gt<br>
+        &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle&gtDocument&lt/title&gt<br>
+            &ltstyle&gt<br><br>
+            &nbsp; &nbsp; p{color: red; }<br>
+            &nbsp; &nbsp; .p1{color: green; }<br>
+            &nbsp; &nbsp; #P{color: blue; }<br><br>
+            &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br><br>
+        <span style="border: 2px solid black; padding: 3px;">&ltp class="p1" id="P"&gtTHIS IS A PARAGRAPH TAG.&lt/p&gt</span><br><br>
+        &lt/body&gt<br>
+        &lt/html&gt<br>   
+        - &nbsp; In this Example we used "#p1" as selector and apply blue color to the element.<br><br>
+        <b><u>RESULT:</u></b><br><br>
+        <p class="p1" id="P">THIS IS A PARAGRAPH TAG.</p><br>
+        - &nbsp; Now, Text is in Blue color even though we have specified a green color for the element selector ".p1".<br>   
+        - &nbsp; Because the id selector is given higher priority than ".p1" selector.<br><br>
+        <b><u>EXAMPLE:4</u></b><br><br>
+        &lt!DOCTYPE html&gt<br>
+        &lthtml lang="en"&gt<br>
+        &lthead&gt<br>
+            &ltmeta charset="UTF-8"&gt<br>
+            &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt<br>
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+            &lttitle&gtDocument&lt/title&gt<br>
+            &ltstyle&gt<br><br>
+            &nbsp; &nbsp; p{color: red; }<br>
+            &nbsp; &nbsp; .p1{color: green; }<br>
+            &nbsp; &nbsp; #P{color: blue; }<br><br>
+            &lt/style&gt<br>
+        &lt/head&gt<br>
+        &ltbody&gt<br><br>
+        <span style="border: 2px solid black; padding: 3px;">&ltp class="p1" id="P" style="color: blueviolet;"&gtTHIS IS A PARAGRAPH TAG.&lt/p&gt</span><br><br>
+        &lt/body&gt<br>
+        &lt/html&gt<br>  
+        <b><u>RESULT:</u></b><br><br>
+        <p class="p1" id="P" style="color: blueviolet;">THIS IS A PARAGRAPH TAG.</p><br>
+        - &nbsp; The text is in blueviolet color, because the inline style is given the highest priority.<br>
+        - &nbsp; Thus, "Inline CSS" has higher specificity value than every selectors.<br><br>
+        <b style="font-size: 25px;">Specificity:</b> 
+        <ol>
+            <li>Inline CSS</li>
+            <li>ID selectors</li>
+            <li>Class selectors</li>
+            <li>Elements</li>
+        </ol>
+        <b style="font-size: 25px;">How to Calculate Specificity?</b><br>
+        - Start at 0, add 100 for each ID value.<br> 
+        - Add 10 for each class value (or pseudo-class or attribute selector).<br>
+        - Add 1 for each element selector or pseudo-element.<br>
+        - <b>Inline style gets a specificity value of 1000, and is always given the highest priority!</b>
+    </div>
+
+    <!-- QUESTION-12 OVER -->
+</body>
+</html>

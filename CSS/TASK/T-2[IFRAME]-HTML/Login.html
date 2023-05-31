@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Log-in Page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
+    <style>
+        fieldset{
+            width: 40%;
+        }
+        .div1{
+            text-align: center;
+        }
+        .div2{
+            text-align: center; 
+        }
+        a{
+            padding: 0% 10%;
+        }
+        span{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset style="border: solid; border-radius: 10px;">
+        <legend><i class="fa-regular fa-user fa-fade fa-xl" style="color: #000000; padding: 20px;"></i></legend>
+        <form action="https://careercenter.tops-int.com/dashboard">
+    <div class="div1">
+        <label for="email" style="padding: 10px;"> <i class="fa-solid fa-user" style="color: #000000;"></i> </label>
+        <input type="email" placeholder="Email ID" required>
+    </div>
+        <br><br>
+    <div class="div2">
+        <label for="password" style="padding: 10px;"> <i class="fa-solid fa-lock" style="color: #000000;"></i> </label>
+        <input type="password" name="password" id="" required pattern="{0-9,a-z,A-Z,_,@,-}" minlength="5" max="8" placeholder="Password">
+    </div>
+    <br>
+    <input type="checkbox" name="remember_me" id=""> <span>Remember me</span>
+    <a href="Forget_Password.html" style="text-decoration: none; float: right;"><span>Forget Password?</span></a>
+    <br><br><br>
+    <input type="submit" name="login" id="" value="LOGIN" style="border: solid; border-radius: 5px;">
+    </form>
+    </fieldset>
+    </center>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.men{
+    width: 50%;
+    height: 400px;
+    background-color: transparent;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+.leftdiv{
+    width: 40%;
+    height: 300px;
+    background-color: transparent;
+    float: left;
+}
+.leftdiv ul li{
+    list-style: none;
+}
+.middlediv{
+    width: 30%;
+    height: 400px;
+    background-color: transparent;
+    float: left;
+}
+sup{
+    color: maroon;
+    font-size: xx-small;
+    padding: 0px 3px;
+}
+.middlediv ul li{
+    list-style: none;
+}
+.rightdiv{
+    width: 30%;
+    height: 400px;
+    background-color: transparent;
+    float: left;
+}
+.rightdiv ul li{
+    list-style: none;
+}

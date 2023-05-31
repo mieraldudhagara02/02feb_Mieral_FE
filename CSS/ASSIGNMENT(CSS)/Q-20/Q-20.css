@@ -1,0 +1,143 @@
+/* QUESTION-20 START */
+
+/* HEADER START */
+header{
+    background: linear-gradient(rgb(0, 71, 67),white);
+    background-clip: text;
+    color: transparent;
+}
+#textgradient{
+    font-size: 50px;
+    display: inline;
+    padding: 600px;
+}
+/* HEADER OVER */
+
+hr{
+    border-top: solid black;
+}
+h2{
+    margin: 10px 0px;
+    padding: 3px 5px;;
+    display: inline;
+}
+h2:hover{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    outline: 2px solid rgb(2, 77, 73);
+    outline-offset: 2px;
+    transition: 0.5s;
+}
+b.internal{
+    background-color: rgb(0, 111, 106);
+    color: white;
+    padding: 3px 5px;
+}
+
+.container{
+    background-color: white;
+    filter: drop-shadow(2px 2px 5px gray);
+    height: 714px;
+    width: auto;
+    position: relative;
+}
+.thumbnail1{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+}
+.header{
+    height: 140px;
+    width: 400px;
+    position: absolute;
+    color: white;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+    line-height: 7;
+    font-size: 20px;
+}
+.content{
+    height: 90px;
+    width: 400px;
+    position: absolute;
+    top: 145px;
+    padding: 3px 10px;
+    word-spacing: 15px;
+}
+.footer1{
+    height: 20px;
+    width: 70px;
+    top: 215px;
+    left: 15px;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+}
+.footer2{
+    height: 20px;
+    width: 70px;
+    top: 215px;
+    left: 85px;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+}
+.footer3{
+    height: 20px;
+    width: 70px;
+    top: 215px;
+    left: 310px;
+    position: absolute;
+    text-align: center;
+}
+.thumbnail2{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+    left: 540px;
+}
+.thumbnail3{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+    left: 1075px;
+}
+.thumbnail4{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+    top: 420px;
+}
+.thumbnail5{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+    top: 420px;
+    left: 540px;
+}
+.thumbnail6{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    float: left;
+    top: 420px;
+    left: 1075px;
+}
+/* QUESTION-20 OVER */
